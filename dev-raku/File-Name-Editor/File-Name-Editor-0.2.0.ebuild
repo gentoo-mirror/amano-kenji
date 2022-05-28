@@ -7,7 +7,7 @@ inherit rakudo
 
 DESCRIPTION="A command line tool for renaming files in any text editor."
 HOMEPAGE="https://codeberg.org/amano.kenji/raku-File-Name-Editor"
-SRC_URI="https://360.zef.pm/F/IL/FILE_NAME_EDITOR/112956dc6a86a25c53057ac335433e149a2b9264.tar.gz -> ${P}.tar.gz"
+SRC_URI="mirror://zef/F/IL/FILE_NAME_EDITOR/65110139404e527cdc9f5832e8d0c4c28ff7df04.tar.gz -> ${P}.tar.gz"
 LICENSE="public-domain"
 SLOT="0"
 KEYWORDS="~amd64"
