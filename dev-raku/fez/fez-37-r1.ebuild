@@ -7,7 +7,7 @@ inherit rakudo
 
 DESCRIPTION="Command line tool for uploading distributions to zef ecosystem"
 HOMEPAGE="https://github.com/tony-o/raku-fez"
-SRC_URI="https://360.zef.pm/F/EZ/FEZ/0b19dd84433b44730a15983296b72bd459f4b140.tar.gz -> ${P}.tar.gz"
+SRC_URI="mirror://zef/F/EZ/FEZ/0b19dd84433b44730a15983296b72bd459f4b140.tar.gz -> ${P}.tar.gz"
 LICENSE="Artistic-2"
 SLOT="0"
 KEYWORDS="~amd64"

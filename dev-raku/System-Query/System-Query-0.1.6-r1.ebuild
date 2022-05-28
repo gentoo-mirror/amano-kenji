@@ -7,7 +7,7 @@ inherit rakudo
 
 DESCRIPTION="It collapses JSON dependent upon certain environmental information"
 HOMEPAGE="https://raku.land/zef:tony-o/System::Query"
-SRC_URI="https://360.zef.pm/S/YS/SYSTEM_QUERY/d254fdd0efd10a06bde98ee99b6ab1349532760a.tar.gz -> ${P}.tar.gz"
+SRC_URI="mirror://zef/S/YS/SYSTEM_QUERY/d254fdd0efd10a06bde98ee99b6ab1349532760a.tar.gz -> ${P}.tar.gz"
 LICENSE="public-domain"
 SLOT="0"
 KEYWORDS="~amd64"
