@@ -13,7 +13,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="primaryuri"
 DOCS="README.md"
-RDEPEND="dev-raku/File-Temp"
+RDEPEND="dev-raku/File-Temp
+	dev-raku/Term-termios"
 S="${WORKDIR}/dist"
 
 src_install() {
