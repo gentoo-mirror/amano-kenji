@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 # @ECLASS: rakudo
-# @MAINTAINER: amano.kenji
+# @MAINTAINER: amano.kenji <amano.kenji@proton.me>
 # @BLURB: An eclass for raku modules
 
 EXPORT_FUNCTIONS src_compile src_install src_test
