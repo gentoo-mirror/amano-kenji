@@ -14,6 +14,7 @@ KEYWORDS="~amd64"
 RESTRICT="primaryuri"
 RDEPEND="dev-raku/TAP
 	dev-raku/Getopt-Long"
+DEPEND="${RDEPEND}"
 DOCS="README.md Changes"
 
 src_install() {

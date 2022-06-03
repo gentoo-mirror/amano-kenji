@@ -17,4 +17,5 @@ RESTRICT="primaryuri"
 DOCS="README.md"
 RDEPEND="dev-raku/File-Find
 	dev-raku/File-Which"
+DEPEND="${RDEPEND}"
 S="${WORKDIR}/${PN}-${COMMIT}"

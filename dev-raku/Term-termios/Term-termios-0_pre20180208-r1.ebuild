@@ -15,7 +15,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="primaryuri"
 DOCS="README.md"
-DEPEND="dev-raku/LibraryMake"
+BDEPEND="dev-raku/LibraryMake"
 S="${WORKDIR}/term-termios-${COMMIT}"
 
 src_compile() {

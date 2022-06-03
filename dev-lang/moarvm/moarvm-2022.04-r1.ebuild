@@ -26,8 +26,8 @@ IUSE="asan clang debug doc +jit optimize static-libs ubsan"
 RDEPEND="dev-libs/libatomic_ops
 		>=dev-libs/libuv-1.26:=
 		dev-libs/libffi:="
-DEPEND="${RDEPEND}
-	clang? ( >=sys-devel/clang-3.1 )
+DEPEND="${RDEPEND}"
+BDEPEND="clang? ( >=sys-devel/clang-3.1 )
 	dev-lang/perl"
 
 DOCS=( CREDITS README.markdown )
