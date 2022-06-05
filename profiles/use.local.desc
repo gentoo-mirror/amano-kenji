@@ -1,0 +1,13 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml.
+# Please add your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
+
+dev-lang/moarvm:asan - Enable clang's Address Sanitizer functionality. Expect longer compile time.
+dev-lang/moarvm:clang - Use clang compiler instead of GCC
+dev-lang/moarvm:jit - Enable Just-In-Time-Compiler. Has no effect except on AMD64 and Darwin.
+dev-lang/moarvm:optimize - Enable optimization via CFLAGS
+dev-lang/moarvm:ubsan - Enable clang's Undefined Behavior Sanitizer functionality. Expect longer compile time.
+dev-lang/nqp:clang - Toggle usage of the clang compiler in conjunction with MoarVM
+dev-lang/nqp:moar - Build the MoarVM backend (experimental/broken)
+dev-lang/rakudo:clang - Use Clang to compile the MoarVM backend
+dev-lang/rakudo:moar - Use the MoarVM as backend
