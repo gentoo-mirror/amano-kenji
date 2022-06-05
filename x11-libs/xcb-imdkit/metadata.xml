@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<use>
-		<flag name="system-uthash">Use the system-wide <pkg>dev-libs/uthash</pkg> instead of bundled.</flag>
-	</use>
-</pkgmetadata>
