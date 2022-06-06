@@ -91,7 +91,7 @@ media-fonts/jetbrains-mono 2.242-r1: A free and open-source typeface for develop
 media-fonts/koruri 20210720: Japanese TrueType font based on M+ outline fonts and Open Sans
 media-fonts/material-design-icons 20200810: Font containing material design icons
 media-fonts/mononoki 1.3: a font for programming and code review
-media-fonts/nanum 2018: Korean fonts distributed by naver
+media-fonts/nanum 2018-r1: Korean fonts distributed by naver
 media-fonts/nerd-fonts-symbols 2.1.0_p20201201: Symbols-only fonts from nerd fonts
 media-gfx/vimiv 0.8.0: An image viewer with vim-like keybindings
 media-gfx/yacreader 9.6.2_p20200212: A comic reader for reading and managing your digital comic collection
