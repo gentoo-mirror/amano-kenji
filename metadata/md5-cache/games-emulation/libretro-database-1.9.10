@@ -1,0 +1,10 @@
+DEFINED_PHASES=-
+DESCRIPTION=Cheatcode files, content data files and etc. stuff for RetroArch
+EAPI=8
+HOMEPAGE=https://github.com/libretro/libretro-database
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=https://github.com/libretro/libretro-database/archive/refs/tags/v1.9.10.tar.gz -> libretro-database-1.9.10.tar.gz
+_md5_=81976a91842c758853cb7b4b3bac2ce0

@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install prepare unpack
+DESCRIPTION=libretro core for a Sega Genesis emulator
+EAPI=7
+HOMEPAGE=https://github.com/libretro/Genesis-Plus-GX
+INHERIT=libretro-core
+IUSE=debug
+KEYWORDS=~amd64 ~x86
+LICENSE=XMAME
+SLOT=0
+SRC_URI=https://github.com/libretro/Genesis-Plus-GX/archive/2ef6f58cffbb526e6c9f6210b32e6771e8dd341e.tar.gz -> libretro-genesis-plus-gx-1.7.5_pre20211025.tar.gz
+_eclasses_=toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	dab5d8ec471d025b79c9e6906bcf3bff	flag-o-matic	a500d7cc40da3de38c361e889153bdf7	libretro-core	d5f30fa5171e2dbcc07c0b8d1b4f83a2
+_md5_=65e288f1983709d8fad1b69dfd12f0c7

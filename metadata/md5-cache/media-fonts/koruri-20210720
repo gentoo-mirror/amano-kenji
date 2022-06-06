@@ -1,0 +1,14 @@
+BDEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
+DEFINED_PHASES=install postinst postrm setup
+DESCRIPTION=Japanese TrueType font based on M+ outline fonts and Open Sans
+EAPI=7
+HOMEPAGE=https://koruri.github.io/
+INHERIT=font
+IUSE=X
+KEYWORDS=~amd64
+LICENSE=Apache-2.0 OFL-1.1
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=https://github.com/Koruri/Koruri/releases/download/20210720/Koruri-20210720.tar.xz
+_eclasses_=font	d31f12a0f6e13d56dc3062e76ae58a61
+_md5_=e7b05bb7e72ba3070620be611462443e

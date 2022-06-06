@@ -1,0 +1,13 @@
+BDEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
+DEFINED_PHASES=install postinst postrm setup
+DESCRIPTION=Font containing material design icons
+EAPI=7
+HOMEPAGE=http://materialdesignicons.com/
+INHERIT=font
+IUSE=X
+KEYWORDS=~amd64 ~x86
+LICENSE=OFL-1.1
+SLOT=0
+SRC_URI=https://github.com/Templarian/MaterialDesign-Font/archive/b0edb548aa5156a009513e47fd8c46c7f47db6d8.zip -> material-design-icons-20200810.zip
+_eclasses_=font	d31f12a0f6e13d56dc3062e76ae58a61
+_md5_=c0a750c821dd70fae6fe06677b491dfe

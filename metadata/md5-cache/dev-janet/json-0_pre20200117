@@ -1,0 +1,13 @@
+BDEPEND=dev-janet/jpm
+DEFINED_PHASES=compile install
+DESCRIPTION=A JSON module for janet.
+EAPI=7
+HOMEPAGE=https://github.com/janet-lang/json
+INHERIT=janet-module
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=dev-lang/janet
+SLOT=0
+SRC_URI=https://github.com/janet-lang/json/archive/61437d96b5df6eb7e524f88847e7d7521201662d.tar.gz -> janet-json-0_pre20200117.tar.gz
+_eclasses_=janet-common	a74d547dc3ec790af78e61f4db09f229	janet-module	453dfb1f8336cab04855ace2e932393e
+_md5_=bfcddae8b240b2d33c98ea89cba3ce14

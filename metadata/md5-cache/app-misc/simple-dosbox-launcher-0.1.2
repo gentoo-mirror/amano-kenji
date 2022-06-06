@@ -1,0 +1,14 @@
+BDEPEND=>=dev-janet/argparse-0_pre20201201:= >=dev-janet/sh-0_alpha20200513:= dev-janet/jpm
+DEFINED_PHASES=compile install
+DESCRIPTION=It launches an executable in an archive file with dosbox.
+EAPI=7
+HOMEPAGE=https://github.com/crocket/simple-dosbox-launcher
+INHERIT=janet-executable
+KEYWORDS=~amd64
+LICENSE=public-domain
+RDEPEND=>=sys-fs/fuse-2.9.9-r1 >=sys-apps/coreutils-8.32 >=app-arch/atool-0.39.0 >=sys-fs/unionfs-fuse-2.1 || ( games-emulation/dosbox-staging games-emulation/dosbox )
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=https://github.com/crocket/simple-dosbox-launcher/archive/refs/tags/v0.1.2.tar.gz -> simple-dosbox-launcher-0.1.2.tar.gz
+_eclasses_=janet-common	a74d547dc3ec790af78e61f4db09f229	janet-executable	1320be7687adb63836b456e44aa563cb
+_md5_=33caff2cccd29289e985aee87fed9ecb

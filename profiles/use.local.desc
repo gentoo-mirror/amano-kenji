@@ -2,6 +2,10 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-arch/unarr:7z - Enable support for 7z
+app-misc/anki:recording - Enable support for audio recording
+app-misc/anki:sound - Enable support for adding sound to cards
+app-misc/sdl-jstest:sdl2 - Support for SDL2
 dev-lang/moarvm:asan - Enable clang's Address Sanitizer functionality. Expect longer compile time.
 dev-lang/moarvm:clang - Use clang compiler instead of GCC
 dev-lang/moarvm:jit - Enable Just-In-Time-Compiler. Has no effect except on AMD64 and Darwin.
@@ -11,3 +15,91 @@ dev-lang/nqp:clang - Toggle usage of the clang compiler in conjunction with Moar
 dev-lang/nqp:moar - Build the MoarVM backend (experimental/broken)
 dev-lang/rakudo:clang - Use Clang to compile the MoarVM backend
 dev-lang/rakudo:moar - Use the MoarVM as backend
+dev-python/JACK-Client:numpy - access the input and output buffers in the process callback as NumPy arrays.
+dev-python/termdown:speak - Support for spoken countdown
+games-emulation/dosbox-x:core-inline - Enable memory-increasing inlines for better performance but requiring more build time
+games-emulation/dosbox-x:dynrec - Use recompiling cpu core instead of dynamic x86/x64 specific cpu core
+games-emulation/dosbox-x:fluidsynth - Use media-sound/fluidsynth for MIDI emulation
+games-emulation/dosbox-x:fpu - Enable FPU emulation
+games-emulation/dosbox-x:freetype - Enable FreeType support
+games-emulation/dosbox-x:midi - Enable MIDI support (with ALSA)
+games-emulation/dosbox-x:mt-32 - Use media-libs/munt-mt32emu for MT-32 emulation
+games-emulation/dosbox-x:printer - Enable printer emulation
+games-emulation/dosbox-x:screenshots - Screenshots and movie recording
+games-emulation/dosbox-x:slirp - Enable libslirp support
+games-emulation/dosbox-x:unaligned - Enable unaligned memory access
+games-emulation/dosbox-x:xbrz - Enable support for xBRZ pixel scaler
+games-emulation/libretro-ppsspp:gles2 - 
+games-emulation/retroarch:cg - Enable Cg shader support
+games-emulation/retroarch:egl - Enable EGL context support
+games-emulation/retroarch:freetype - Enable FreeType support
+games-emulation/retroarch:gles - Enable GLES support
+games-emulation/retroarch:gles3 - Enable GLES3 support
+games-emulation/retroarch:kms - Enable KMS context support
+games-emulation/retroarch:libusb - Enable LibUSB HID support
+games-emulation/retroarch:materialui - Enable MaterialUI menu
+games-emulation/retroarch:miniupnpc - Enable Mini UPnP client library (for NAT traversal)
+games-emulation/retroarch:opengl_core - 
+games-emulation/retroarch:ozone - Enable ozone menu
+games-emulation/retroarch:parport - 
+games-emulation/retroarch:plain_drm - 
+games-emulation/retroarch:rgui - Enable rgui menu
+games-emulation/retroarch:sdl2 - Enable SDL2 backend (disables SDL 1.x)
+games-emulation/retroarch:sixel - Enable libsixel support
+games-emulation/retroarch:stripes - Enable stripes menu
+games-emulation/retroarch:subtitles - Enable subtitles support
+games-emulation/retroarch:tinyalsa - Enable TinyALSA support
+games-emulation/retroarch:vulkan - Enable vulkan support
+games-emulation/retroarch:xmb - Enable XMB menu
+games-emulation/retroarch:xrandr - Enable xrandr support
+gui-apps/gammastep:geoclue - Control dependency on app-misc/geoclue
+gui-apps/swaylock:fish-completion - Enable fish completion support
+gui-apps/swaylock:gdk-pixbuf - Enable additional image format support via the x11-libs/gdk-pixbuf library
+gui-apps/swaylock:man - Build and install man pages
+media-fonts/nerd-fonts-symbols:1000-em - Use 1000-em version of nerd-fonts-symbols
+media-fonts/nerd-fonts-symbols:2048-em - Use 2048-em version of nerd-fonts-symbols
+media-gfx/yacreader:qrencode - Support for encoding QR codes
+media-libs/zita-alsa-pcmi:tools - Install executables
+media-libs/zita-resampler:tools - Install executables
+media-sound/mpd:cdio - Use libcdio for ISO9660 parsing support
+media-sound/mpd:curl - Support for web stream listening
+media-sound/mpd:eventfd - Use the eventfd function in MPD's event loop
+media-sound/mpd:faad - Use external faad library for AAC decoding
+media-sound/mpd:fifo - Support writing audio to a FIFO
+media-sound/mpd:fluidsynth - Enables Fluidsynth MIDI software synthesis (discouraged)
+media-sound/mpd:gme - Enables support for media-libs/game-music-emu for playing various video game music formats.
+media-sound/mpd:id3tag - Support for ID3 tags
+media-sound/mpd:inotify - Use the Linux kernel inotify subsystem to notice changes to mpd music library
+media-sound/mpd:lame - Support for MP3 streaming via Icecast2
+media-sound/mpd:libmpdclient - Enable support for remote mpd databases
+media-sound/mpd:libsoxr - Enable the libsoxr resampler
+media-sound/mpd:mpg123 - Enable support for mp3 decoding over media-sound/mpg123
+media-sound/mpd:network - Enables network streaming support
+media-sound/mpd:nfs - Enable support for the Network File System
+media-sound/mpd:opus - Enable Opus codec support
+media-sound/mpd:pipe - Support writing audio to a pipe
+media-sound/mpd:recorder - Enables output plugin for recording radio streams
+media-sound/mpd:sid - Build with SID (Commodore 64 Audio) support
+media-sound/mpd:signalfd - Use the signalfd function in MPD's event loop
+media-sound/mpd:soundcloud - Build plugin to access soundcloud
+media-sound/mpd:systemd - Enable support for systemd socket activation
+media-sound/mpd:twolame - Support twolame MPEG-2 encoding
+media-sound/mpd:webdav - 
+media-sound/mpd:wildmidi - Enable MIDI support via wildmidi
+media-sound/mpd:zip - Support for ZIP files
+media-sound/pyradio:mplayer - 
+media-sound/pyradio:mpv - 
+media-sound/pyradio:vlc - 
+net-misc/electron-cash:qrcode - Enable QR code scanning with media-gfx/zbar
+net-misc/electrum-ltc:audio_modem - Enable plugin to support Audio Modem
+net-misc/electrum-ltc:cli - Enables the CLI interface
+net-misc/electrum-ltc:cosign - Enable plugin to support multisig wallets between multiple Electrum clients
+net-misc/electrum-ltc:digitalbitbox - Enable plugin to support Digital Bitbox hardware wallet
+net-misc/electrum-ltc:email - Enable plugin to support emailing invoices
+net-misc/electrum-ltc:qrcode - Enable QR code scanning with media-gfx/zbar
+net-misc/electrum-ltc:sync - Enable plugin to sync wallet metadata across multiple Electrum clients
+net-misc/electrum-ltc:vkb - Enable plugin for virtual keyboard
+net-p2p/haven-main:ldns - SSL toolkit
+net-p2p/haven-main:lzma - lzma support in unwind
+net-p2p/haven-main:xml - xml support through dev-libs/expat
+sys-libs/basu:caps - Depend on sys-libs/libcap

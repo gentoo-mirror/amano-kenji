@@ -1,6 +1,48 @@
+app-arch/unarr 1.1.0_pre20200201-r1: A lightweight decompression library with support for rar, tar and zip archives
+app-misc/anki 2.1.16-r9: A spaced-repetition memory training program (flash cards)
+app-misc/dragon 1.1.1: Drag and drop source/target for X
+app-misc/lf 15 17: a terminal file manager written in Go
+app-misc/ranger 1.9.3_p202090525: A vim-inspired file manager for the console
+app-misc/sdl-jstest 0.2.1_p20210422: Test joysticks with SDL
+app-misc/simple-dosbox-launcher 0.1.2: It launches an executable in an archive file with dosbox.
+app-misc/task-spooler 1.0: a Unix batch system where the tasks spooled run one after the other.
+app-shells/peco 0.5.8_p20210315: Simplistic interactive filtering tool
+dev-janet/argparse 0_pre20201201: A moderately opinionated argument parser for janet.
+dev-janet/circlet 0_alpha20200616: an HTTP and networking library
+dev-janet/http 0.1.0_p20200207: A janet HTTP client
+dev-janet/jdn 0.0.1_p20210206: Janet data notation
+dev-janet/jpm 0.0.1: It is for automating builds and downloading dependencies of Janet projects.
+dev-janet/json 0_pre20200117: A JSON module for janet.
+dev-janet/path 0_pre20191213: Simple path manipulation module for Janet.
+dev-janet/posix-spawn 0_alpha20200512 0_alpha20210217: A process API for janet wrapping posix-spawn(3).
+dev-janet/process 0_alpha20200509: A janet module for running child processes.
+dev-janet/repl-tools 0.3: a set of functions for janet REPL.
+dev-janet/rlrepl 0_alpha20200119: A janet REPL using readline.
+dev-janet/sh 0_alpha20210507: A janet module for shell functions.
+dev-janet/utf8 0.4: Utility functions for UTF-8
+dev-janet/xmrig 0.2: A janet library for xmrig HTTP API
+dev-lang/janet 1.21.0 1.21.2: A functional and imperative language for scripting and embedding
+dev-lang/joker 0.15.6 0.15.7: a small Clojure interpreter and linter written in Go.
 dev-lang/moarvm 2022.04-r1: A 6model-based VM for NQP and Raku
 dev-lang/nqp 2022.04: Not Quite Perl, a Raku bootstrapping compiler
 dev-lang/rakudo 2022.04: A compiler for the Raku programming language
+dev-lisp/parinfer-rust 0.4.3_p20210405: Infer parentheses for Clojure, Lisp and Scheme.
+dev-python/JACK-Client 0.5.1-r1: JACK Audio Connection Kit (JACK) Client for Python
+dev-python/asciimatics 1.13.0: Package for curses-like operations, text UIs and ASCII art animations
+dev-python/asynctest 0.13.0-r1: Enhance standard unittest package with features for testing asyncio libraries
+dev-python/click-didyoumean 0.0.3_p20200930: Enable git-like did-you-mean feature in click.
+dev-python/colour 0.1.5-r4: Python color representations manipulation library (RGB, HSL, web, ...)
+dev-python/d2to1 0.2.12_p1-r1: It converts distutils2's setup.cfg to setuptools' setup.py
+dev-python/i3pystatus 3.35_p20201022 9999: A complete replacement for i3status with many status modules
+dev-python/keyring_pass 0.7.0: app-admin/pass backend for dev-python/keyring
+dev-python/librouteros 3.0.0-r1: Python implementation of routeros api
+dev-python/maturin 0.7.7: Builds wheels from a rust crate for python 3.5+
+dev-python/pyalsaaudio 0.8.4-r1: A Python wrapper for the ALSA API
+dev-python/pyfiglet 0.8.0-r3: Pure-python FIGlet implementation
+dev-python/python-osc 1.7.3-r1: Open Sound Control server and client in pure python
+dev-python/td-watson 2.1.0: A wonderful CLI to track your time!
+dev-python/termdown 1.18.0: Countdown timer and stopwatch in your terminal
+dev-python/urwidtrees 1.0.3-r1: Tree widgets for urwid
 dev-raku/App-Prove6 0.0.12-r2: Run tests through a TAP harness.
 dev-raku/Digest-MD5 0.05_p20170425-r1: MD5 Algorithm
 dev-raku/Distribution-Builder-MakeFromJSON 0.6-r2: Makefile based distribution builder
@@ -17,6 +59,67 @@ dev-raku/Shell-Command 0_pre20190129-r1: Cross-platform routines emulating commo
 dev-raku/System-Query 0.1.6-r1: It collapses JSON dependent upon certain environmental information
 dev-raku/TAP 0.3.5-r1: An asynchronous TAP framework written in Raku.
 dev-raku/Term-termios 0_pre20180208-r1: termios routines for Raku
+dev-raku/URI-Encode 0.09: A Raku module for encoding / decoding URIs
 dev-raku/fez 37-r1: Command line tool for uploading distributions to zef ecosystem
 dev-raku/zef 0.13.8-r1: Raku / Perl6 Module Management
-net-p2p/lbry 0.53.3: A browser for the LBRY network, a digital marketplace controlled by its users.
+games-emulation/blastem-libretro 0.6.2_p20210810: A fast and accurate Genesis emulator
+games-emulation/dosbox-x 0.83.25-r3: Cross-platform DOS emulation package.
+games-emulation/libretro-common-overlays 1_pre20210930: Collection of overlay files for use with RetroArch
+games-emulation/libretro-database 1.9.10: Cheatcode files, content data files and etc. stuff for RetroArch
+games-emulation/libretro-dolphin 5.0_p20211101: A Gamecube/Wii emulator core for libretro
+games-emulation/libretro-fbneo 1.0.0.02_p20211006: Fork of Final Burn Alpha
+games-emulation/libretro-genesis-plus-gx 1.7.5_pre20211025: libretro core for a Sega Genesis emulator
+games-emulation/libretro-info 1_pre20210929: Libretro info files required for libretro cores
+games-emulation/libretro-kronos 2.1.5_p20210924: Kronos libretro port
+games-emulation/libretro-mednafen-pce 0.9.48_p20211019: libretro implementation of Mednafen PCE. (PC Engine/TurboGrafx-16)
+games-emulation/libretro-mednafen-saturn 1.22.1_p20210918: Standalone port of Mednafen Saturn to the libretro API
+games-emulation/libretro-melonds 0.9.3_p20211001: libretro implementation of melonDS. (NintendoDS)
+games-emulation/libretro-nestopia 1.5.1_p20211010: Nestopia libretro port
+games-emulation/libretro-nxengine 1.0.0.6_p20211116: libretro implementation of NXEngine. (Cave Story)
+games-emulation/libretro-ppsspp 1.12.3: libretro implementation of PPSSPP
+games-emulation/libretro-slang-shaders 1_pre20210915: Vulkan GLSL RetroArch shaders
+games-emulation/retroarch 1.9.13.2: Frontend for emulators, game engines and media players
+games-emulation/retroarch-assets 1_pre20211027: Assets needed for RetroArch. Also contains the official branding.
+gui-apps/bemenu 0.6.3_p20211104: dmenu clone for wayland
+gui-apps/emptty 0.7.1 0.8.0: Dead simple CLI Display Manager on TTY
+gui-apps/gammastep 2.0.2-r1: A screen color temperature adjusting software
+gui-apps/swaylock 1.5_p20201015: Screen locker for Wayland
+media-fonts/font-awesome-extension 0.0.3: icon font that extends font-awesome
+media-fonts/font-logos 0.14: An icon font containing logos of linux distributions and other softwares.
+media-fonts/ipa 003.03: Fixed-width japanese fonts and variable-width japanese fonts
+media-fonts/jetbrains-mono 2.242-r1: A free and open-source typeface for developers
+media-fonts/koruri 20210720: Japanese TrueType font based on M+ outline fonts and Open Sans
+media-fonts/material-design-icons 20200810: Font containing material design icons
+media-fonts/mononoki 1.3: a font for programming and code review
+media-fonts/nanum 2018: Korean fonts distributed by naver
+media-fonts/nerd-fonts-symbols 2.1.0_p20201201: Symbols-only fonts from nerd fonts
+media-gfx/vimiv 0.8.0: An image viewer with vim-like keybindings
+media-gfx/yacreader 9.6.2_p20200212: A comic reader for reading and managing your digital comic collection
+media-libs/zita-alsa-pcmi 0.3.2: Provides easy access to ALSA PCM devices
+media-libs/zita-resampler 1.6.2: A C++ library for resampling audio signals
+media-sound/jackminimix 0.2.1: a simple mixer for the Jack with an OSC control interface.
+media-sound/mpd 0.22_pre20200121-r2: The Music Player Daemon (mpd)
+media-sound/pyradio 0.7.4 9999: Command line internet radio player
+media-sound/zita-ajbridge 0.8.2: zita-ajbridge allows an ALSA device to be used as a jack client.
+net-dns/jddclient 0.2.2: A Dynamic DNS Client written in janet
+net-misc/aria2p 0.11.1: Command-line tool and Python library to interact with aria2c through JSON-RPC
+net-misc/electron-cash 4.2.3: Lightweight Bitcoin Cash client (BCH fork of Electrum)
+net-misc/electrum-ltc 4.0.9.3_p20220318: Litecoin thin client
+net-misc/urlscan 0.9.6: Launch URLs contained in a text content on a web browser
+net-p2p/haven-main 2.2.3: Haven protocol(XHV) command line wallet
+net-p2p/lbry 0.53.3-r1: A browser for the LBRY network, a digital marketplace controlled by its users.
+net-p2p/stig 0.12.1: TUI and CLI for the BitTorrent client Transmission
+net-vpn/sentinel-cli-client 0.1.9: Sentinel VPN CLI Client
+sys-apps/flashbench 20161130: Testing tool for managed flash memory devices
+sys-auth/pam-gnupg 0.2_p20201125-r2: Unlock GnuPG keys on login
+sys-auth/pam_rundir 1.0.1-r5: A PAM module that provides XDG_RUNTIME_DIR
+sys-fs/sanoid 2.0.3 2.1.0: Policy-driven snapshot management and replication tools.
+sys-libs/basu 0.2.0: sd-bus library extracted from systemd
+sys-libs/libfixposix 0.4.3: Thin wrapper over POSIX syscalls
+www-client/nyxt 2.2.3: Nyxt - the internet on your terms.
+www-misc/buku-fzf 0.3.11: A buku bookmark browser
+www-misc/bukubrow 5.3.0: bukubrow
+x11-misc/console-tdm 1.4.1: Console display manager based on CDM
+x11-misc/dmenu 4.9_p20190303: a generic, highly customizable, and efficient menu for the X Window System
+x11-misc/tbsm 0.5: A pure bash session or application launcher. Inspired by cdm, tdm and krunner
+x11-misc/xiccd 9999: A desktop environment-independent bridge between colord and X

@@ -1,0 +1,14 @@
+BDEPEND=dev-janet/jpm
+DEFINED_PHASES=compile install
+DESCRIPTION=A janet module for shell functions.
+EAPI=7
+HOMEPAGE=https://github.com/andrewchambers/janet-process
+INHERIT=janet-module
+KEYWORDS=~amd64
+LICENSE=public-domain
+RDEPEND=>=dev-janet/posix-spawn-0_alpha20200512 dev-lang/janet
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=https://github.com/andrewchambers/janet-sh/archive/7f83f6f717e62ea0ecdbade92daed326d734c89f.tar.gz -> janet-sh-0_alpha20210507.tar.gz
+_eclasses_=janet-common	a74d547dc3ec790af78e61f4db09f229	janet-module	453dfb1f8336cab04855ace2e932393e
+_md5_=ad08a5c515cb1e051fc1b3c0b4992277

@@ -1,0 +1,13 @@
+BDEPEND=dev-janet/jpm
+DEFINED_PHASES=compile install
+DESCRIPTION=A moderately opinionated argument parser for janet.
+EAPI=7
+HOMEPAGE=https://github.com/janet-lang/argparse
+INHERIT=janet-module
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=dev-lang/janet
+SLOT=0
+SRC_URI=https://github.com/crocket/argparse/archive/206656f81a37fbb85ea1326d081944e523f93c6d.tar.gz -> janet-argparse-0_pre20201201.tar.gz
+_eclasses_=janet-common	a74d547dc3ec790af78e61f4db09f229	janet-module	453dfb1f8336cab04855ace2e932393e
+_md5_=5379d3257f41615980c79a636b0b5106

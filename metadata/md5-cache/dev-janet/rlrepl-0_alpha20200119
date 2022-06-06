@@ -1,0 +1,14 @@
+BDEPEND=dev-janet/jpm
+DEFINED_PHASES=compile install
+DEPEND=sys-libs/readline
+DESCRIPTION=A janet REPL using readline.
+EAPI=7
+HOMEPAGE=https://github.com/andrewchambers/janet-rlrepl
+INHERIT=janet-module
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=sys-libs/readline dev-lang/janet
+SLOT=0
+SRC_URI=https://github.com/andrewchambers/janet-rlrepl/archive/b97829e575ed551d5c7f9f299b2fe756f540833c.tar.gz -> janet-rlrepl-0_alpha20200119.tar.gz
+_eclasses_=janet-common	a74d547dc3ec790af78e61f4db09f229	janet-module	453dfb1f8336cab04855ace2e932393e
+_md5_=d8caf5f7166aed7ef75f60af74c2cddf

@@ -1,0 +1,14 @@
+BDEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
+DEFINED_PHASES=install postinst postrm prepare setup unpack
+DESCRIPTION=Symbols-only fonts from nerd fonts
+EAPI=7
+HOMEPAGE=https://github.com/ryanoasis/nerd-fonts
+INHERIT=font
+IUSE=1000-em +2048-em X
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+REQUIRED_USE=2048-em? ( !1000-em )
+SLOT=0
+SRC_URI=https://github.com/ryanoasis/nerd-fonts/raw/0f15e7d67f8251429276a2b91794822ff9a7fa65/10-nerd-font-symbols.conf 1000-em? ( https://github.com/ryanoasis/nerd-fonts/raw/0f15e7d67f8251429276a2b91794822ff9a7fa65/src/glyphs/Symbols-1000-em%20Nerd%20Font%20Complete.ttf ) 2048-em? ( https://github.com/ryanoasis/nerd-fonts/raw/0f15e7d67f8251429276a2b91794822ff9a7fa65/src/glyphs/Symbols-2048-em%20Nerd%20Font%20Complete.ttf )
+_eclasses_=font	d31f12a0f6e13d56dc3062e76ae58a61
+_md5_=3c2c33456f2d6d8a86bab84969738cba

@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install prepare unpack
+DESCRIPTION=libretro implementation of melonDS. (NintendoDS)
+EAPI=7
+HOMEPAGE=https://github.com/libretro/melonDS
+INHERIT=libretro-core
+IUSE=debug
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=games-emulation/libretro-info
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=https://github.com/libretro/melonDS/archive/e362d5c02d5379410be838de53586db3d114c43a.tar.gz -> libretro-melonds-0.9.3_p20211001.tar.gz
+_eclasses_=toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	dab5d8ec471d025b79c9e6906bcf3bff	flag-o-matic	a500d7cc40da3de38c361e889153bdf7	libretro-core	d5f30fa5171e2dbcc07c0b8d1b4f83a2
+_md5_=ed8280e90de45266fe37d2200e49ca5d

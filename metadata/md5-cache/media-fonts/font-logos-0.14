@@ -1,0 +1,14 @@
+BDEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
+DEFINED_PHASES=install postinst postrm setup
+DESCRIPTION=An icon font containing logos of linux distributions and other softwares.
+EAPI=7
+HOMEPAGE=https://lukas-w.github.io/font-logos/
+INHERIT=font
+IUSE=X
+KEYWORDS=~amd64 ~x86
+LICENSE=Unlicense
+RESTRICT=binchecks strip test
+SLOT=0
+SRC_URI=https://github.com/Lukas-W/font-logos/archive/v0.14.tar.gz -> font-logos-0.14.tar.gz
+_eclasses_=font	d31f12a0f6e13d56dc3062e76ae58a61
+_md5_=564f56edaea22c958e7800ffe9ce6252

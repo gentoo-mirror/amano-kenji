@@ -1,0 +1,13 @@
+BDEPEND=app-arch/unzip X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
+DEFINED_PHASES=install postinst postrm setup
+DESCRIPTION=A free and open-source typeface for developers
+EAPI=7
+HOMEPAGE=https://www.jetbrains.com/lp/mono/
+INHERIT=font
+IUSE=X
+KEYWORDS=~amd64 ~x86
+LICENSE=OFL-1.1
+SLOT=0
+SRC_URI=https://github.com/JetBrains/JetBrainsMono/releases/download/v2.242/JetBrainsMono-2.242.zip -> jetbrains-mono-2.242.zip
+_eclasses_=font	d31f12a0f6e13d56dc3062e76ae58a61
+_md5_=2c03e0f7e42d34b7fdf9a676f365f1b7

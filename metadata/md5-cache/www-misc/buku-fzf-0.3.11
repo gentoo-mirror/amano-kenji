@@ -1,0 +1,14 @@
+BDEPEND=>=dev-janet/argparse-0_pre20201201 >=dev-janet/sh-0_alpha20200513 dev-janet/jpm
+DEFINED_PHASES=compile install
+DESCRIPTION=A buku bookmark browser
+EAPI=7
+HOMEPAGE=https://github.com/crocket/buku-fzf
+INHERIT=janet-executable
+KEYWORDS=~amd64
+LICENSE=public-domain
+RDEPEND=>=sys-apps/util-linux-2.35.2 >=sys-apps/coreutils-8.32 >=www-misc/buku-4.5_p20210530 >=app-shells/fzf-0.25.1
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=https://github.com/crocket/buku-fzf/archive/refs/tags/v0.3.11.tar.gz -> buku-fzf-0.3.11.tar.gz
+_eclasses_=janet-common	a74d547dc3ec790af78e61f4db09f229	janet-executable	1320be7687adb63836b456e44aa563cb
+_md5_=f9aa83edf1161d0b3b97f7cb34ce4486

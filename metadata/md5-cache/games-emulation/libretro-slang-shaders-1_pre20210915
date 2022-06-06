@@ -1,0 +1,9 @@
+DEFINED_PHASES=-
+DESCRIPTION=Vulkan GLSL RetroArch shaders
+EAPI=7
+HOMEPAGE=https://github.com/libretro/slang-shaders
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+SLOT=0
+SRC_URI=https://github.com/libretro/slang-shaders/archive/e3a942c688519eeb9a7b16fd7c6810ac31951680.tar.gz -> libretro-slang-shaders-1_pre20210915.tar.gz
+_md5_=9c51da21a74308306f409bf240a42590
