@@ -1,0 +1,12 @@
+diff -u -r source.orig/Makefile source/Makefile
+--- source.orig/Makefile	2019-04-02 22:13:20.453006475 +0900
++++ source/Makefile	2019-04-02 22:03:47.954420478 +0900
+@@ -24,7 +24,7 @@
+ 
+ VERSION = 0.8.2
+ CPPFLAGS +=  -MMD -MP -DVERSION=\"$(VERSION)\"
+-CXXFLAGS += -O2 -Wall
++CXXFLAGS += -Wall
+ 
+ 
+ all:	zita-a2j zita-j2a zita-ajbridge.1.gz zita-a2j.1.gz zita-j2a.1.gz 

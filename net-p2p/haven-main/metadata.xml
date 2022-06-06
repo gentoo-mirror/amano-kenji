@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <use>
+    <flag name="ldns">SSL toolkit</flag>
+    <flag name="lzma">lzma support in unwind</flag>
+    <flag name="xml">xml support through dev-libs/expat</flag>
+  </use>
+</pkgmetadata>

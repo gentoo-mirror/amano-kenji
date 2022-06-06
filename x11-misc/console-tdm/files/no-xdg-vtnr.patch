@@ -1,0 +1,15 @@
+diff -ur console-tdm-1.4.1/tdm b/tdm
+--- console-tdm-1.4.1/tdm	2018-09-25 20:30:18.000000000 +0900
++++ b/tdm	2020-03-18 14:23:13.020447399 +0900
+@@ -87,11 +87,6 @@
+     echo "Support for the old configuration directory ($CONFDIR) will be dropped in tdm 2.x.y"
+ fi
+ 
+-if [ -z "$XDG_VTNR" ]; then
+-    XDG_VTNR="$(tty | sed -n -e 's|^/dev/tty\([1-9][0-9]*\)|\1|p')"
+-    export XDG_VTNR
+-fi
+-
+ while [ $# -gt 0 ]; do
+     case "$1" in
+         '--xstart')

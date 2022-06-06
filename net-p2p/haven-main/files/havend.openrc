@@ -1,0 +1,24 @@
+#!/sbin/openrc-run
+
+pidfile=/run/havend.pid
+command=/usr/bin/havend
+command_user="havend:havend"
+command_args="--non-interactive \
+--config-file /etc/havend.conf \
+--log-file=/var/log/havend/havend.log"
+command_args_background="--detach --pidfile ${pidfile}"
+
+start_pre() {
+  checkpath -d -o havend:havend --mode 0750 /var/log/havend
+}
+
+stop() {
+  ebegin "Stopping havend"
+  PID=$(cat $pidfile)
+  kill $PID
+  while [ -d /proc/${PID} ]
+  do
+    sleep 5
+  done
+  eend 0
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <longdescription lang="en">
+    Curses based internet radio player
+  </longdescription>
+  <use>
+    <flag name="mpv"></flag>
+    <flag name="vlc"></flag>
+    <flag name="mplayer"></flag>
+  </use>
+</pkgmetadata>

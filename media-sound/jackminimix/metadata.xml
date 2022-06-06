@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <longdescription lang="en"> 
+    JackMiniMix is a simple mixer for the Jack Audio Connection Kit with an OSC based control interface.
+  </longdescription>
+  <upstream>
+    <remote-id type="github">njh/jackminimix</remote-id>
+  </upstream>
+</pkgmetadata>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <longdescription>
+    pam_rundir is a PAM module that can be used to provide user runtime
+    directory, as described in the XDG Base Directory Specification.
+
+    The directory will be created on login (open session) and removed on logout
+    (close session), and its full path made available in an environment variable,
+    usually $XDG_RUNTIME_DIR.
+  </longdescription>
+</pkgmetadata>
