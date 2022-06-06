@@ -30,12 +30,11 @@ SRC_URI="mirror://amano-kenji/NanumBarunGothic-2018-OTF.zip
 	mirror://amano-kenji/NanumSquare-2017-TTF.zip
 	mirror://amano-kenji/NanumSquareRound-2017-OTF.zip
 	mirror://amano-kenji/NanumSquareRound-2017-TTF.zip"
-
 LICENSE="OFL-1.1"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
-RESTRICT="binchecks strip"
+RESTRICT="binchecks strip primaryuri"
 
 DEPEND=""
 RDEPEND=""
