@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <longdescription>
+    A moderately opinionated argument parser for janet. Use this for writing CLI scripts that need to have UNIX style switches and options.
+  </longdescription>
+</pkgmetadata>

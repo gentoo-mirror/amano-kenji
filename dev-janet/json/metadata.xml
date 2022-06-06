@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <longdescription>
+    A JSON module for janet. Encodes and Decodes JSON data and converts it to
+    and from Janet data structures. Strings are encoded as UTF-8, and UTF-16
+    escapes and surrogates as supported as per the JSON spec.
+  </longdescription>
+</pkgmetadata>

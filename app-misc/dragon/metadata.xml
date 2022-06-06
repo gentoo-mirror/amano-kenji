@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <longdescription>
+    Many programs, particularly web applications, expect files to be dragged
+    into them now. If you don't habitually use a file manager that is a
+    problem. dragon is a lightweight drag-and-drop source for X where you
+    can run: dragon file.tar.gz
+    to get a window with just that file in it, ready to be dragged where you
+    need it.
+  </longdescription>
+</pkgmetadata>
