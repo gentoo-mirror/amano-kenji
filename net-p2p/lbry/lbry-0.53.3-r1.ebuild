@@ -16,14 +16,12 @@ QA_PREBUILT="*"
 RESTRICT="primaryuri"
 
 RDEPEND="
-	dev-libs/libappindicator
-	dev-libs/nss
-	gnome-base/gconf
-	media-libs/alsa-lib
-	net-print/cups
 	x11-libs/libnotify
 	x11-libs/libXtst
-	x11-libs/libXScrnSaver
+	dev-libs/nss
+	dev-libs/libappindicator
+	media-libs/alsa-lib
+	net-print/cups
 "
 
 S="${WORKDIR}"
@@ -39,5 +37,5 @@ src_install() {
 	rm -rd "${ED}"/usr/share/doc || die
 	fperms 0755 /opt/LBRY/lbry || die
 	fperms 0755 /opt/LBRY/resources/static/daemon/lbrynet || die
-	dosym /opt/LBRY/lbry /usr/bin/lbry
+	dosym ../../opt/LBRY/lbry /usr/bin/lbry
 }
