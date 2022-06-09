@@ -59,6 +59,10 @@ dev-raku/Shell-Command 0_pre20190129-r1: Cross-platform routines emulating commo
 dev-raku/System-Query 0.1.6-r1: It collapses JSON dependent upon certain environmental information
 dev-raku/TAP 0.3.5-r1: An asynchronous TAP framework written in Raku.
 dev-raku/Term-termios 0_pre20180208-r1: termios routines for Raku
+dev-raku/Terminal-ANSIColor 0.5: Colorize terminal output
+dev-raku/Terminal-ANSIParser 0.0.2: ANSI/VT stream parser
+dev-raku/Terminal-LineEditor 0.0.11: Generalized terminal line editing
+dev-raku/Text-MiscUtils 0.0.6: A bag of small text processing tricks
 dev-raku/URI-Encode 0.09: A Raku module for encoding / decoding URIs
 dev-raku/fez 37-r1: Command line tool for uploading distributions to zef ecosystem
 dev-raku/zef 0.13.8-r1: Raku / Perl6 Module Management
