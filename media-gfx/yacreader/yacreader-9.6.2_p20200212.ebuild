@@ -7,8 +7,8 @@ inherit qmake-utils xdg
 
 DESCRIPTION="A comic reader for reading and managing your digital comic collection"
 HOMEPAGE="http://www.yacreader.com"
-GIT_COMMIT="15c126fda5032f665038255a0df7400e6b16018f"
-SRC_URI="https://github.com/YACReader/yacreader/archive/${GIT_COMMIT}.zip"
+GIT_COMMIT="9.8.2.2106204"
+SRC_URI="https://github.com/YACReader/yacreader/archive/refs/tags/${GIT_COMMIT}.zip"
 KEYWORDS="~amd64"
 LICENSE="GPL-3"
 SLOT="0"
