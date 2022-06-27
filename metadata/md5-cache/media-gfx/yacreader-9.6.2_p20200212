@@ -10,5 +10,5 @@ LICENSE=GPL-3
 RDEPEND=dev-qt/qtcore:5 dev-qt/qtmultimedia:5 dev-qt/qtdeclarative:5 dev-qt/qtimageformats:5 dev-qt/qtquickcontrols:5 dev-qt/qtsql:5[sqlite] dev-qt/qtscript:5 dev-qt/qtopengl:5 dev-qt/qtnetwork:5 app-arch/unarr qrencode? ( media-gfx/qrencode ) pdf? ( app-text/poppler[qt5] )
 SLOT=0
 SRC_URI=https://github.com/YACReader/yacreader/archive/15c126fda5032f665038255a0df7400e6b16018f.zip
-_eclasses_=toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	qmake-utils	59420c906278d16deaaa629f9d115707	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	xdg	6024fbc93167fad782e2032933654857
+_eclasses_=toolchain-funcs	e9da88162e7a3c60376e80c2c2adcdfb	multilib	4fbbbc98f236f1b43acd99476bc3cd85	qmake-utils	59420c906278d16deaaa629f9d115707	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	xdg	6024fbc93167fad782e2032933654857
 _md5_=ec1ac7310022a2aab431c9f304d2870a
