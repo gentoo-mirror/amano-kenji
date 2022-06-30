@@ -85,7 +85,7 @@ games-emulation/libretro-slang-shaders 1_pre20210915: Vulkan GLSL RetroArch shad
 games-emulation/retroarch 1.9.13.2: Frontend for emulators, game engines and media players
 games-emulation/retroarch-assets 1_pre20211027: Assets needed for RetroArch. Also contains the official branding.
 gui-apps/bemenu 0.6.3_p20211104: dmenu clone for wayland
-gui-apps/emptty 0.7.1 0.8.0: Dead simple CLI Display Manager on TTY
+gui-apps/emptty 0.8.0 0.8.1: Dead simple CLI Display Manager on TTY
 gui-apps/gammastep 2.0.2-r1: A screen color temperature adjusting software
 gui-apps/swaylock 1.5_p20201015: Screen locker for Wayland
 media-fonts/font-awesome-extension 0.0.3: icon font that extends font-awesome
