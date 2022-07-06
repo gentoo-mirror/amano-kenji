@@ -3,7 +3,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3_{5..9} )
+PYTHON_COMPAT=( python3_{5..10} )
 
 inherit distutils-r1
 
@@ -22,7 +22,7 @@ RDEPEND="
 	>=dev-python/aiohttp-3[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4[${PYTHON_USEDEP}]
 	dev-python/aiohttp-socks[${PYTHON_USEDEP}]
-	dev-python/async_timeout[${PYTHON_USEDEP}]
+	dev-python/async-timeout[${PYTHON_USEDEP}]
 	dev-python/pyxdg[${PYTHON_USEDEP}]
 	dev-python/blinker[${PYTHON_USEDEP}]
 	dev-python/natsort[${PYTHON_USEDEP}]
