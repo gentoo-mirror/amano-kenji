@@ -28,7 +28,7 @@ dev-lang/nqp 2022.04 2022.06: Not Quite Perl, a Raku bootstrapping compiler
 dev-lang/rakudo 2022.04 2022.06: A compiler for the Raku programming language
 dev-lisp/parinfer-rust 0.4.3_p20210405: Infer parentheses for Clojure, Lisp and Scheme.
 dev-python/JACK-Client 0.5.1-r1: JACK Audio Connection Kit (JACK) Client for Python
-dev-python/asciimatics 1.13.0-r1: Package for curses-like operations, text UIs and ASCII art animations
+dev-python/asciimatics 1.14.0: Package for curses-like operations, text UIs and ASCII art animations
 dev-python/asynctest 0.13.0-r1: Enhance standard unittest package with features for testing asyncio libraries
 dev-python/click-didyoumean 0.0.3_p20200930: Enable git-like did-you-mean feature in click.
 dev-python/colour 0.1.5-r4: Python color representations manipulation library (RGB, HSL, web, ...)
