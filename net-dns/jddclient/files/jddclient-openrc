@@ -1,0 +1,10 @@
+#!/sbin/openrc-run
+
+command=jddclient
+command_args="${jddclient_args}"
+command_user=nobody:nobody
+start_stop_daemon_args="-b -m -p /run/jddclient.pid"
+
+depend() {
+  need net
+}

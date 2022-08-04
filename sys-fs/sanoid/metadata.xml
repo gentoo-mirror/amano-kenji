@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <longdescription lang="en">
+    Sanoid is a policy-driven snapshot management tool for ZFS filesystems.
+    When combined with the Linux KVM hypervisor, you can use it to make your systems functionally immortal.
+  </longdescription>
+</pkgmetadata>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <longdescription lang="en">
+    The sd-bus library, extracted from systemd.
+    Some projects rely on the sd-bus library for DBus support. However not all
+    systems have systemd or elogind installed. This library provides just sd-bus
+    (and the busctl utility).
+  </longdescription>
+  <use>
+    <flag name="caps">Depend on sys-libs/libcap</flag>
+  </use>
+</pkgmetadata>

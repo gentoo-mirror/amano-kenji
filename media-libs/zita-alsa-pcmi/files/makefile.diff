@@ -1,0 +1,46 @@
+diff -u -r zita-alsa-pcmi-0.3.2.orig/apps/Makefile zita-alsa-pcmi-0.3.2/apps/Makefile
+--- zita-alsa-pcmi-0.3.2.orig/apps/Makefile	2018-08-25 03:41:30.000000000 +0900
++++ zita-alsa-pcmi-0.3.2/apps/Makefile	2019-04-02 22:16:33.246540586 +0900
+@@ -24,8 +24,9 @@
+ BINDIR ?= $(PREFIX)/bin
+ 
+ VERSION = "0.3.2"
+-CPPFLAGS +=  -MMD -MP -DVERSION=\"$(VERSION)\"
+-CXXFLAGS += -O2 -Wall
++CPPFLAGS +=  -MMD -MP -DVERSION=\"$(VERSION)\" -I../source/
++CXXFLAGS += -Wall
++LDFLAGS += -L../source/
+ 
+ 
+ all:	alsa_loopback alsa_delay
+@@ -48,7 +49,7 @@
+ 
+ 
+ install:	all
+-	install -d $(BINDIR)
++	install -d $(DESTDIR)$(BINDIR)
+ 	install -m 755 alsa_loopback  $(DESTDIR)$(BINDIR)
+ 	install -m 755 alsa_delay     $(DESTDIR)$(BINDIR)
+ 
+diff -u -r zita-alsa-pcmi-0.3.2.orig/source/Makefile zita-alsa-pcmi-0.3.2/source/Makefile
+--- zita-alsa-pcmi-0.3.2.orig/source/Makefile	2018-08-25 03:41:30.000000000 +0900
++++ zita-alsa-pcmi-0.3.2/source/Makefile	2019-04-02 22:16:58.035609261 +0900
+@@ -30,7 +30,7 @@
+ VERSION = $(MAJVERS).$(MINVERS)
+ 
+ CPPFLAGS += -DVERSION=\"$(VERSION)\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS
+-CXXFLAGS += -O2 -Wall -fPIC
++CXXFLAGS += -Wall -fPIC
+ CXXFLAGS += -march=native
+ LDLFAGS +=
+ LDLIBS +=
+@@ -53,8 +53,8 @@
+ 	install -d $(DESTDIR)$(LIBDIR)
+ 	install -m 644 $(ZITA-ALSA-PCMI_H) $(DESTDIR)$(INCDIR)
+ 	install -m 755 $(ZITA-ALSA-PCMI_MIN) $(DESTDIR)$(LIBDIR)
+-	ldconfig
+ 	ln -sf $(ZITA-ALSA-PCMI_MIN) $(DESTDIR)$(LIBDIR)/$(ZITA-ALSA-PCMI_SO)
++	ln -sf $(ZITA-ALSA-PCMI_MIN) $(DESTDIR)$(LIBDIR)/$(ZITA-ALSA-PCMI_MAJ)
+ 
+ uninstall:
+ 	rm -rf $(DESTDIR)$(INCDIR)/$(ZITA-ALSA-PCMI_H)
