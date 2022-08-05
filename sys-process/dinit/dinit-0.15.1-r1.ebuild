@@ -13,10 +13,10 @@ DOCS=(NEWS README.md TODO doc/COMPARISON doc/DESIGN doc/getting_started.md
 PATCHES=(${FILESDIR}/dinit-0.15.1-shutdown_prefix.diff)
 
 src_compile() {
-	emake SHUTDOWNPREFIX=dinit- SHUTDOWN_PREFIX=dinit-
+	emake SHUTDOWN_PREFIX=dinit-
 }
 
 src_install() {
-	emake SHUTDOWNPREFIX=dinit- SHUTDOWN_PREFIX=dinit- DESTDIR="${ED}" install
+	emake SHUTDOWN_PREFIX=dinit- DESTDIR="${ED}" install
 	einstalldocs
 }
