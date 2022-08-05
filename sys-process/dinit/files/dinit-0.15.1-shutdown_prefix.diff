@@ -1,0 +1,46 @@
+diff -ur dinit-0.15.1-a/doc/manpages/Makefile dinit-0.15.1-b/doc/manpages/Makefile
+--- dinit-0.15.1-a/doc/manpages/Makefile	2022-06-15 08:04:45.000000000 +0000
++++ dinit-0.15.1-b/doc/manpages/Makefile	2022-08-05 14:24:57.717677682 +0000
+@@ -11,10 +11,11 @@
+ 	mkdir -p "$(DESTDIR)$(MANDIR)/man5"
+ 	install -m644 dinit-service.5 "$(DESTDIR)$(MANDIR)/man5"
+ ifeq ($(BUILD_SHUTDOWN),yes)
+-	install -m644 shutdown.8 "$(DESTDIR)$(MANDIR)/man8"
+-	ln -sf "shutdown.8" "$(DESTDIR)$(MANDIR)/man8/halt.8"
+-	ln -sf "shutdown.8" "$(DESTDIR)$(MANDIR)/man8/reboot.8"
+-	ln -sf "shutdown.8" "$(DESTDIR)$(MANDIR)/man8/poweroff.8"
++	mv shutdown.8 $(SHUTDOWN_PREFIX)shutdown.8
++	install -m644 $(SHUTDOWN_PREFIX)shutdown.8 "$(DESTDIR)$(MANDIR)/man8"
++	ln -sf "$(SHUTDOWN_PREFIX)shutdown.8" "$(DESTDIR)$(MANDIR)/man8/$(SHUTDOWN_PREFIX)halt.8"
++	ln -sf "$(SHUTDOWN_PREFIX)shutdown.8" "$(DESTDIR)$(MANDIR)/man8/$(SHUTDOWN_PREFIX)reboot.8"
++	ln -sf "$(SHUTDOWN_PREFIX)shutdown.8" "$(DESTDIR)$(MANDIR)/man8/$(SHUTDOWN_PREFIX)poweroff.8"
+ endif
+ 
+ clean:
+diff -ur dinit-0.15.1-a/src/Makefile dinit-0.15.1-b/src/Makefile
+--- dinit-0.15.1-a/src/Makefile	2022-06-15 08:04:45.000000000 +0000
++++ dinit-0.15.1-b/src/Makefile	2022-08-05 14:21:59.119761211 +0000
+@@ -32,8 +32,8 @@
+ dinit-monitor: dinit-monitor.o
+ 	$(CXX) -o dinit-monitor dinit-monitor.o $(CXXOPTS) $(LDFLAGS)
+ 
+-$(SHUTDOWNPREFIX)shutdown: shutdown.o
+-	$(CXX) -o $(SHUTDOWNPREFIX)shutdown shutdown.o $(CXXOPTS) $(LDFLAGS)
++$(SHUTDOWN_PREFIX)shutdown: shutdown.o
++	$(CXX) -o $(SHUTDOWN_PREFIX)shutdown shutdown.o $(CXXOPTS) $(LDFLAGS)
+ 
+ $(objects): %.o: %.cc
+ 	$(CXX) $(CXXOPTS) -MMD -MP -Iincludes -I../dasynq/include -I../build/includes -c $< -o $@
+@@ -51,9 +51,9 @@
+ 	install -d $(DESTDIR)$(SBINDIR)
+ 	install $(STRIPOPTS) dinit dinitctl dinitcheck dinit-monitor $(SHUTDOWN) $(DESTDIR)$(SBINDIR)
+ ifeq ($(BUILD_SHUTDOWN),yes)
+-	ln -sf $(SHUTDOWN) $(DESTDIR)$(SBINDIR)/$(SHUTDOWNPREFIX)halt
+-	ln -sf $(SHUTDOWN) $(DESTDIR)$(SBINDIR)/$(SHUTDOWNPREFIX)reboot
+-	ln -sf $(SHUTDOWN) $(DESTDIR)$(SBINDIR)/$(SHUTDOWNPREFIX)poweroff
++	ln -sf $(SHUTDOWN) $(DESTDIR)$(SBINDIR)/$(SHUTDOWN_PREFIX)halt
++	ln -sf $(SHUTDOWN) $(DESTDIR)$(SBINDIR)/$(SHUTDOWN_PREFIX)reboot
++	ln -sf $(SHUTDOWN) $(DESTDIR)$(SBINDIR)/$(SHUTDOWN_PREFIX)poweroff
+ endif
+ 
+ clean:
