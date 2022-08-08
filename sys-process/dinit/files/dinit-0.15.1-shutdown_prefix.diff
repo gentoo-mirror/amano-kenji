@@ -1,7 +1,7 @@
 diff -ur dinit-0.15.1-a/doc/manpages/Makefile dinit-0.15.1-b/doc/manpages/Makefile
 --- dinit-0.15.1-a/doc/manpages/Makefile	2022-06-15 08:04:45.000000000 +0000
-+++ dinit-0.15.1-b/doc/manpages/Makefile	2022-08-05 14:24:57.717677682 +0000
-@@ -11,10 +11,11 @@
++++ dinit-0.15.1-b/doc/manpages/Makefile	2022-08-06 04:14:14.617128452 +0000
+@@ -11,10 +11,10 @@
  	mkdir -p "$(DESTDIR)$(MANDIR)/man5"
  	install -m644 dinit-service.5 "$(DESTDIR)$(MANDIR)/man5"
  ifeq ($(BUILD_SHUTDOWN),yes)
@@ -9,8 +9,7 @@ diff -ur dinit-0.15.1-a/doc/manpages/Makefile dinit-0.15.1-b/doc/manpages/Makefi
 -	ln -sf "shutdown.8" "$(DESTDIR)$(MANDIR)/man8/halt.8"
 -	ln -sf "shutdown.8" "$(DESTDIR)$(MANDIR)/man8/reboot.8"
 -	ln -sf "shutdown.8" "$(DESTDIR)$(MANDIR)/man8/poweroff.8"
-+	mv shutdown.8 $(SHUTDOWN_PREFIX)shutdown.8
-+	install -m644 $(SHUTDOWN_PREFIX)shutdown.8 "$(DESTDIR)$(MANDIR)/man8"
++	install -m644 shutdown.8 "$(DESTDIR)$(MANDIR)/man8/$(SHUTDOWN_PREFIX)shutdown.8"
 +	ln -sf "$(SHUTDOWN_PREFIX)shutdown.8" "$(DESTDIR)$(MANDIR)/man8/$(SHUTDOWN_PREFIX)halt.8"
 +	ln -sf "$(SHUTDOWN_PREFIX)shutdown.8" "$(DESTDIR)$(MANDIR)/man8/$(SHUTDOWN_PREFIX)reboot.8"
 +	ln -sf "$(SHUTDOWN_PREFIX)shutdown.8" "$(DESTDIR)$(MANDIR)/man8/$(SHUTDOWN_PREFIX)poweroff.8"
