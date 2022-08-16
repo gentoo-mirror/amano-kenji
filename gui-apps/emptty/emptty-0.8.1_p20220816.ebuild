@@ -7,7 +7,7 @@ inherit go-module pam
 
 DESCRIPTION="Dead simple CLI Display Manager on TTY"
 HOMEPAGE="https://github.com/tvrzna/emptty"
-COMMIT="009c8e5554ffd65e222e53f79986a49c0669ae4b"
+COMMIT="c869c77d4db1694350dcb35a81c4e6bc4d8d6069"
 SRC_URI="https://github.com/tvrzna/emptty/archive/${COMMIT}.tar.gz -> ${P}.tar.gz
 	mirror://amano-kenji/${PN}-0.8.1-deps.tar.xz"
 LICENSE="MIT"
