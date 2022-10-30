@@ -17,7 +17,7 @@ IUSE="tools"
 DEPEND="media-libs/alsa-lib"
 RDEPEND="${DEPEND}"
 DOCS=( AUTHORS README )
-PATCHES=( ${FILESDIR}/makefile.diff )
+PATCHES=( "${FILESDIR}/makefile.diff" )
 
 src_compile() {
 	tc-export CXX

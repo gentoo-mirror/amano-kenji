@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 RESTRICT="primaryuri"
 DOCS=(NEWS README.md TODO doc/COMPARISON doc/DESIGN doc/getting_started.md
 	doc/linux/DINIT-AS-INIT.md)
-PATCHES=(${FILESDIR}/dinit-0.15.1-shutdown_prefix.diff)
+PATCHES=("${FILESDIR}/dinit-0.15.1-shutdown_prefix.diff")
 
 src_compile() {
 	emake SHUTDOWN_PREFIX=dinit-

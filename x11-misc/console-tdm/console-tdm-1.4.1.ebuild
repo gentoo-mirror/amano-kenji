@@ -17,7 +17,7 @@ DEPEND=""
 RDEPEND="app-shells/bash:0
 	x11-apps/xinit"
 DOCS="README.md ChangeLog.md"
-PATCHES=( ${FILESDIR}/no-xdg-vtnr.patch )
+PATCHES=( "${FILESDIR}/no-xdg-vtnr.patch" )
 
 src_compile() {
 	:

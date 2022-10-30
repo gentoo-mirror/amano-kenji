@@ -15,8 +15,8 @@ FONT_CONF=( "${S}/10-nerd-font-symbols.conf" )
 BDEPEND="app-arch/unzip"
 
 src_unpack() {
-	cp ${DISTDIR}/${P}-10-nerd-font-symbols.conf 10-nerd-font-symbols.conf
-	unpack ${P}-NerdFontsSymbolsOnly.zip
+	cp "${DISTDIR}/${P}-10-nerd-font-symbols.conf" 10-nerd-font-symbols.conf
+	unpack "${P}-NerdFontsSymbolsOnly.zip"
 }
 
 src_prepare() {

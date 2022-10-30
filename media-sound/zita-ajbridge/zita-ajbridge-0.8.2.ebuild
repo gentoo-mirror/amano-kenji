@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~arm64"
 IUSE=""
 S="${WORKDIR}/${P}/source"
 DOCS=( ../{AUTHORS,README} )
-PATCHES=( ${FILESDIR}/makefile.diff )
+PATCHES=( "${FILESDIR}/makefile.diff" )
 
 DEPEND="media-libs/alsa-lib
 	>=media-libs/zita-alsa-pcmi-0.3.2
