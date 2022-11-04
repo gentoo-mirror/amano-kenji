@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install
+DESCRIPTION=service manager and init system
+EAPI=8
+HOMEPAGE=https://davmac.org/projects/dinit/
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=https://github.com/davmac314/dinit/releases/download/v0.15.1/dinit-0.15.1.tar.xz
+_md5_=d5f4b385107114889c1d9fb1750d5218

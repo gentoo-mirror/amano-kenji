@@ -1,0 +1,13 @@
+BDEPEND=dev-janet/jpm
+DEFINED_PHASES=compile install
+DESCRIPTION=A janet module for running child processes.
+EAPI=7
+HOMEPAGE=https://github.com/andrewchambers/janet-process
+INHERIT=janet-module
+KEYWORDS=~amd64
+LICENSE=public-domain
+RDEPEND=dev-lang/janet
+SLOT=0
+SRC_URI=https://github.com/andrewchambers/janet-process/archive/93ada5b91c3b5bb76000dafe2f9dc38a58917303.tar.gz -> janet-process-0_alpha20200509.tar.gz
+_eclasses_=janet-common	eb13d2e3fe73ace60601542e75c04894	janet-module	a6e2b341895c35cea9947f1d25b5177d
+_md5_=ff32ccfa540dad6ccc1a816e0455e3c2

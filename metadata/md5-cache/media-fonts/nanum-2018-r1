@@ -1,0 +1,14 @@
+BDEPEND=app-arch/unzip X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
+DEFINED_PHASES=install postinst postrm prepare setup
+DESCRIPTION=Korean fonts distributed by naver
+EAPI=7
+HOMEPAGE=http://hangeul.naver.com
+INHERIT=font
+IUSE=X
+KEYWORDS=~amd64 ~x86
+LICENSE=OFL-1.1
+RESTRICT=binchecks strip primaryuri
+SLOT=0
+SRC_URI=mirror://amano-kenji/NanumBarunGothic-2018-OTF.zip mirror://amano-kenji/NanumBarunGothic-2018-TTF.zip mirror://amano-kenji/NanumBarunGothicYetHanGul-2014-OTF.zip mirror://amano-kenji/NanumBarunGothicYetHanGul-2014-TTF.zip mirror://amano-kenji/NanumBarunPen-2014-OTF.zip mirror://amano-kenji/NanumBarunPen-2014-TTF.zip mirror://amano-kenji/NanumGothic-2016-OTF.zip mirror://amano-kenji/NanumGothic-2016-TTF.zip mirror://amano-kenji/NanumGothicCoding-2.5.zip mirror://amano-kenji/NanumGothicEco-2011-OTF.zip mirror://amano-kenji/NanumGothicEco-2011-TTF.zip mirror://amano-kenji/NanumMyeongJo-2014-OTF.zip mirror://amano-kenji/NanumMyeongJo-2014-TTF.zip mirror://amano-kenji/NanumMyeongJoEco-2011-OTF.zip mirror://amano-kenji/NanumMyeongJoEco-2011-TTF.zip mirror://amano-kenji/NanumMyeongJoYetHanGul-2014-OTF.zip mirror://amano-kenji/NanumMyeongJoYetHanGul-2014-TTF.zip mirror://amano-kenji/NanumSonGeulSsi-2010-OTF.zip mirror://amano-kenji/NanumSonGeulSsi-2010-TTF.zip mirror://amano-kenji/NanumSquare-2017-OTF.zip mirror://amano-kenji/NanumSquare-2017-TTF.zip mirror://amano-kenji/NanumSquareRound-2017-OTF.zip mirror://amano-kenji/NanumSquareRound-2017-TTF.zip
+_eclasses_=font	bc7d91ca9054e47ad87b5763214665a4
+_md5_=6aca49b62e711fd098aabe9d0249d6c4

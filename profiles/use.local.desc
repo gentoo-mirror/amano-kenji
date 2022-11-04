@@ -1,0 +1,29 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml.
+# Please add your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
+
+app-arch/unarr:7z - Enable support for 7z
+app-misc/sdl-jstest:sdl2 - Support for SDL2
+dev-lang/moarvm:asan - Enable clang's Address Sanitizer functionality. Expect longer compile time.
+dev-lang/moarvm:clang - Use clang compiler instead of GCC
+dev-lang/moarvm:jit - Enable Just-In-Time-Compiler. Has no effect except on AMD64 and Darwin.
+dev-lang/moarvm:optimize - Enable optimization via CFLAGS
+dev-lang/moarvm:ubsan - Enable clang's Undefined Behavior Sanitizer functionality. Expect longer compile time.
+dev-lang/nqp:clang - Toggle usage of the clang compiler in conjunction with MoarVM
+dev-lang/nqp:moar - Build the MoarVM backend (experimental/broken)
+dev-lang/rakudo:clang - Use Clang to compile the MoarVM backend
+dev-lang/rakudo:moar - Use the MoarVM as backend
+dev-python/JACK-Client:numpy - access the input and output buffers in the process callback as NumPy arrays.
+dev-python/termdown:speak - Support for spoken countdown
+gui-apps/gammastep:geoclue - Control dependency on app-misc/geoclue
+media-gfx/yacreader:qrencode - Support for encoding QR codes
+media-libs/zita-alsa-pcmi:tools - Install executables
+media-libs/zita-resampler:tools - Install executables
+net-p2p/haven-main:ldns - SSL toolkit
+net-p2p/haven-main:lzma - lzma support in unwind
+net-p2p/haven-main:xml - xml support through dev-libs/expat
+net-p2p/monero:daemon - Build the Monero daemon used to connect to the P2P network.
+net-p2p/monero:tools - Build tools used to manipulate the blockchain as it is stored on disk.
+net-p2p/monero:wallet-cli - Build the command line wallet, monero-wallet-cli.
+net-p2p/monero:wallet-rpc - Build the RPC wallet, monero-wallet-rpc.
+sys-libs/basu:caps - Depend on sys-libs/libcap

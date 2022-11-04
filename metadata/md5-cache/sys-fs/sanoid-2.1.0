@@ -1,0 +1,10 @@
+DEFINED_PHASES=install postinst
+DESCRIPTION=Policy-driven snapshot management and replication tools.
+EAPI=7
+HOMEPAGE=https://github.com/jimsalterjrs/sanoid
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/perl-5.30 dev-perl/Config-IniFiles dev-perl/Capture-Tiny sys-apps/pv virtual/ssh app-arch/lzop sys-block/mbuffer app-arch/gzip
+SLOT=0
+SRC_URI=https://github.com/jimsalterjrs/sanoid/archive/v2.1.0.tar.gz -> sanoid-2.1.0.tar.gz
+_md5_=d2e2e7b8b689b0fe523f22fc6ba80852

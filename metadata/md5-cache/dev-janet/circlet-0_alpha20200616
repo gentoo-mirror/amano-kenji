@@ -1,0 +1,13 @@
+BDEPEND=dev-janet/jpm
+DEFINED_PHASES=compile install
+DESCRIPTION=an HTTP and networking library
+EAPI=7
+HOMEPAGE=https://github.com/janet-lang/circlet
+INHERIT=janet-module
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=dev-lang/janet
+SLOT=0
+SRC_URI=https://github.com/janet-lang/circlet/archive/b0b3d43beb437e61d09815a5b1e529653eafa569.tar.gz -> janet-circlet-0_alpha20200616.tar.gz
+_eclasses_=janet-common	eb13d2e3fe73ace60601542e75c04894	janet-module	a6e2b341895c35cea9947f1d25b5177d
+_md5_=22898be9a3cdf947a8a3bf1617c0687c

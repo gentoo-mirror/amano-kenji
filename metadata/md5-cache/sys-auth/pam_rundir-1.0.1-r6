@@ -1,0 +1,15 @@
+BDEPEND=dev-lang/perl
+DEFINED_PHASES=configure install postinst
+DEPEND=sys-libs/pam
+DESCRIPTION=A PAM module that provides XDG_RUNTIME_DIR
+EAPI=8
+HOMEPAGE=https://jjacky.com/pam_rundir/
+INHERIT=pam
+KEYWORDS=~amd64
+LICENSE=GPL-2+
+RDEPEND=sys-libs/pam
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=https://github.com/FredrikAleksander/pam_rundir/archive/refs/tags/v1.0.1.tar.gz -> pam_rundir-1.0.1.tar.gz
+_eclasses_=toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	29a755b1291d64133634d80b0328f153	pam	e44a1dd98f13e1ad76de01e919bde1f1
+_md5_=8594214a684f0a9968831832c868117f

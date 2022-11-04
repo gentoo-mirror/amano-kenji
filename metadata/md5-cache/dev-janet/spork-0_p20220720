@@ -1,0 +1,14 @@
+BDEPEND=dev-janet/jpm
+DEFINED_PHASES=compile install
+DESCRIPTION=Various Janet utility modules - the official "Contrib" library.
+EAPI=7
+HOMEPAGE=https://github.com/janet-lang/spork
+INHERIT=janet-module
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=dev-lang/janet
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=https://github.com/janet-lang/spork/archive/7b51d6243c6bcbec97dbfb77a1bf21edea55c0de.tar.gz -> janet-spork-0_p20220720.tar.gz
+_eclasses_=janet-common	eb13d2e3fe73ace60601542e75c04894	janet-module	a6e2b341895c35cea9947f1d25b5177d
+_md5_=8a6ade7e4f65d66d022b3ad1d79bdc7b

@@ -1,0 +1,14 @@
+BDEPEND=dev-janet/jpm
+DEFINED_PHASES=compile install
+DESCRIPTION=Janet data notation
+EAPI=7
+HOMEPAGE=https://github.com/andrewchambers/janet-jdn
+INHERIT=janet-module
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=dev-lang/janet
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=https://github.com/andrewchambers/janet-jdn/archive/c0951f6978555268a24d86eee2f118327328b40b.tar.gz -> janet-jdn-0.0.1_p20210206.tar.gz
+_eclasses_=janet-common	eb13d2e3fe73ace60601542e75c04894	janet-module	a6e2b341895c35cea9947f1d25b5177d
+_md5_=0ee01692f9154f84785f70d9a6c2662c

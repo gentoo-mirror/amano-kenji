@@ -1,0 +1,12 @@
+BDEPEND=dev-lang/janet
+DEFINED_PHASES=install
+DESCRIPTION=It is for automating builds and downloading dependencies of Janet projects.
+EAPI=8
+HOMEPAGE=https://github.com/janet-lang/jpm
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=dev-lang/janet
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=https://github.com/janet-lang/jpm/archive/refs/tags/v1.1.0.tar.gz -> jpm-1.1.0.tar.gz
+_md5_=2193955704728e66a81b1e4ddced996a
