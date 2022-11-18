@@ -10,5 +10,5 @@ LICENSE=MIT
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://github.com/gokcehan/lf/archive/aee5c3371fdbf26cbca2ae6c9ccb4fcb2b7bb29d.tar.gz -> lf-27_p20220626.tar.gz mirror://amano-kenji/lf-27_p20220626-deps.tar.xz
-_eclasses_=go-module	15312495dc4fd84f8c37bbe228ea2abd	toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	multilib	5ca4e49abed8e3a2f7b56920eadee157	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff	desktop	7eb20ad915a0a318176d51bc2508ff5c	xdg-utils	ac0e315a3688929e34ac75b139e7349a	xdg	6024fbc93167fad782e2032933654857
+_eclasses_=go-module	4c4b34f361efda91762ffeda8f632c02	toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	multilib	5ca4e49abed8e3a2f7b56920eadee157	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff	desktop	7eb20ad915a0a318176d51bc2508ff5c	xdg-utils	ac0e315a3688929e34ac75b139e7349a	xdg	6024fbc93167fad782e2032933654857
 _md5_=e6dcf28b69a1e1f2f0444ebf6b96e983
