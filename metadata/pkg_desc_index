@@ -5,7 +5,7 @@ app-crypt/lssecret 0_p20190703: List all secret items using libsecret (e.g. GNOM
 app-crypt/pass_secret_service 0_p20220718-r2: dbus-service to serve secret-service api with pass backend
 app-misc/anki-bin 2.1.54-r2: A spaced-repetition memory training program (flash cards)
 app-misc/dragon 1.1.1: Drag and drop source/target for X
-app-misc/lf 27_p20220626-r1: a terminal file manager written in Go
+app-misc/lf 28: a terminal file manager written in Go
 app-misc/ranger 1.9.3_p20220615: A vim-inspired file manager for the console
 app-misc/sdl-jstest 0.2.1_p20220531: Test joysticks with SDL
 app-misc/simple-dosbox-launcher 0.1.3: It launches an executable in an archive file with dosbox.
