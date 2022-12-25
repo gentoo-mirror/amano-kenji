@@ -7,8 +7,7 @@ inherit go-module bash-completion-r1 desktop xdg
 
 DESCRIPTION="a terminal file manager written in Go"
 HOMEPAGE="https://github.com/gokcehan/lf"
-COMMIT="aee5c3371fdbf26cbca2ae6c9ccb4fcb2b7bb29d"
-SRC_URI="https://github.com/gokcehan/lf/archive/${COMMIT}.tar.gz -> ${P}.tar.gz
+SRC_URI="https://github.com/gokcehan/lf/archive/refs/tags/r${PV}.tar.gz -> ${P}.tar.gz
 	mirror://amano-kenji/${P}-deps.tar.xz"
 
 LICENSE="MIT"
@@ -19,7 +18,7 @@ RESTRICT="primaryuri"
 
 DEPEND=""
 RDEPEND=""
-S="${WORKDIR}/${PN}-${COMMIT}"
+S="${WORKDIR}/${PN}-r${PV}"
 DOCS="README.md etc/lfrc.example"
 
 src_compile() {
