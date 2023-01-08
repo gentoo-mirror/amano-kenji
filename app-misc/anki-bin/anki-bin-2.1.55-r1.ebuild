@@ -3,7 +3,7 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{8..10} )
+PYTHON_COMPAT=( python3_{9,10} )
 inherit python-single-r1 desktop xdg
 
 MY_PN=${PN%-bin}
@@ -27,7 +27,6 @@ DEPEND="
 $(python_gen_cond_dep '
 	dev-python/decorator[${PYTHON_USEDEP}]
 	dev-python/protobuf-python[${PYTHON_USEDEP}]
-	dev-python/orjson-bin[${PYTHON_USEDEP}]
 	dev-python/distro[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
@@ -55,7 +54,7 @@ src_unpack() {
 }
 
 src_install() {
-	python_domodule anki anki-${PV}.dist-info aqt aqt-${PV}.dist-info
+	python_domodule anki anki-${PV}.dist-info _aqt aqt aqt-${PV}.dist-info
 	printf "#!/usr/bin/python3\nimport sys;from aqt import run;sys.exit(run())" > runanki
 	python_newscript runanki anki
 	newicon "${DISTDIR}"/${P}.png ${MY_PN}.png
