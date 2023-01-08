@@ -3,7 +3,7 @@ acct-user/monero 0: System user: monero
 app-arch/unarr 1.1.0_pre20200201-r2: A lightweight decompression library with support for rar, tar and zip archives
 app-crypt/lssecret 0_p20190703: List all secret items using libsecret (e.g. GNOME Keyring).
 app-crypt/pass_secret_service 0_p20220718-r2: dbus-service to serve secret-service api with pass backend
-app-misc/anki-bin 2.1.54-r2: A spaced-repetition memory training program (flash cards)
+app-misc/anki-bin 2.1.55-r1: A spaced-repetition memory training program (flash cards)
 app-misc/dragon 1.1.1: Drag and drop source/target for X
 app-misc/lf 28: a terminal file manager written in Go
 app-misc/ranger 1.9.3_p20220615: A vim-inspired file manager for the console
@@ -25,7 +25,7 @@ dev-janet/sh 0.0.1_p20220707: A janet module for shell functions.
 dev-janet/spork 0_p20220720: Various Janet utility modules - the official "Contrib" library.
 dev-janet/utf8 0.4: Utility functions for UTF-8
 dev-janet/xmrig 0.2: A janet library for xmrig HTTP API
-dev-lang/janet 1.25.0 1.25.1: A functional and imperative language for scripting and embedding
+dev-lang/janet 1.25.1 1.26.0: A functional and imperative language for scripting and embedding
 dev-lang/joker 1.0.0: a small Clojure interpreter and linter written in Go.
 dev-lang/moarvm 2022.07 2022.12: A 6model-based VM for NQP and Raku
 dev-lang/nqp 2022.07 2022.12: Not Quite Perl, a Raku bootstrapping compiler
@@ -109,7 +109,7 @@ sys-auth/pam_rundir 1.0.1-r6: A PAM module that provides XDG_RUNTIME_DIR
 sys-fs/sanoid 2.1.0: Policy-driven snapshot management and replication tools.
 sys-libs/basu 0.2.0: sd-bus library extracted from systemd
 sys-libs/libfixposix 0.4.3: Thin wrapper over POSIX syscalls
-sys-process/dinit 0.15.1-r1: service manager and init system
+sys-process/dinit 0.15.1-r1 0.16.1: service manager and init system
 www-client/nyxt 2.2.3: Nyxt - the internet on your terms.
 www-misc/buku-fzf 0.3.12: A buku bookmark browser
 www-misc/bukubrow 5.3.0: Host application for the Bukubrow WebExtension
