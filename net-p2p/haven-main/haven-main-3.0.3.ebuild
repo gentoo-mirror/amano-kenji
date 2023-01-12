@@ -1,20 +1,14 @@
-# Copyright 1999-2022 Gentoo Authors
-# Distributed under the terms of the GNU General Public License v2
-
 EAPI=7
 
 inherit cmake
 
 DESCRIPTION="Haven protocol(XHV) command line wallet"
 HOMEPAGE="https://github.com/haven-protocol-org/haven-main"
-BLOCKCHAIN_EXPLORER="4dc9793acf4c2508b29069fa4ece2b312d72c928"
-BLOCKCHAIN_EXPLORER_P="haven-blockchain-explorer-${BLOCKCHAIN_EXPLORER}"
-RANDOMX="7567cef4c6192fb5356bbdd7db802be77be0439b"
+RANDOMX="f9ae3f235183c452962edd2a15384bdc67f7a11e"
 RANDOMX_P="randomx-${RANDOMX}"
 MINIUPNP="4c700e09526a7d546394e85628c57e9490feefa0"
 MINIUPNP_P="miniupnp-${MINIUPNP}"
 SRC_URI="https://github.com/haven-protocol-org/haven-main/archive/v${PV}.tar.gz -> ${P}.tar.gz
-	https://github.com/haven-protocol-org/haven-blockchain-explorer/archive/${BLOCKCHAIN_EXPLORER}.tar.gz -> ${BLOCKCHAIN_EXPLORER_P}.tar.gz
 	https://github.com/tevador/RandomX/archive/${RANDOMX}.tar.gz -> ${RANDOMX_P}.tar.gz
 	https://github.com/monero-project/miniupnp/archive/${MINIUPNP}.tar.gz -> ${MINIUPNP_P}.tar.gz"
 LICENSE="MIT BSD"
@@ -36,25 +30,25 @@ CDEPEND=">=dev-libs/boost-1.67.0:=
 	unwind? (
 		sys-libs/libunwind:=[lzma?]
 	)
-	xml? ( >=dev-libs/expat-1.1:= )
-	net-libs/miniupnpc"
-DEPEND="${CDEPEND}
+	xml? ( >=dev-libs/expat-1.1:= )"
+DEPEND="${CDEPEND}"
+RDEPEND="${CDEPEND}"
+BDEPEND=">=sys-devel/gcc-4.7.3
+	>=dev-util/cmake-3.5
+	virtual/pkgconfig
 	test? ( dev-cpp/gtest )
 	doc? (
 		app-doc/doxygen
 		media-gfx/graphviz
 	)"
-RDEPEND="${CDEPEND}"
-BDEPEND=">=sys-devel/gcc-4.7.3
-	>=dev-util/cmake-3.5
-	virtual/pkgconfig"
 DOCS="README.md ANONYMITY_NETWORKS.md LEVIN_PROTOCOL.md RPC_API.html"
 
 src_unpack() {
 	default
-	rmdir "${S}/haven-blockchain-explorer" || die
-	mv "${WORKDIR}/haven-blockchain-explorer-${BLOCKCHAIN_EXPLORER}" "${S}/haven-blockchain-explorer" || die
+	# rmdir "${S}/haven-blockchain-explorer" || die
+	# mv "${WORKDIR}/haven-blockchain-explorer-${BLOCKCHAIN_EXPLORER}" "${S}/haven-blockchain-explorer" || die
 	rmdir "${S}"/external/{randomx,miniupnp} || die
+	# rm -r "${S}/translations" || die
 	mv "${WORKDIR}/RandomX-${RANDOMX}" "${S}/external/randomx" || die
 	mv "${WORKDIR}/miniupnp-${MINIUPNP}" "${S}/external/miniupnp" || die
 }
@@ -71,11 +65,14 @@ src_configure() {
 	cmake_src_configure
 }
 
+src_compile() {
+	LRELEASE_PATH="/usr/lib64/qt5/bin/lrelease" cmake_src_compile
+}
+
 src_install() {
 	cmake_src_install
-	rm -r "${D}/usr/include"
-	rm -r "${D}/usr/$(get_libdir)"
-	mv "${D}/usr/bin/monero-gen-ssl-cert" "${D}/usr/bin/haven-gen-ssl-cert"
+	#rm -r "${D}/usr/include"
+	#rm -r "${D}/usr/$(get_libdir)"
 
 	# OpenRC
 	newinitd "${FILESDIR}/havend.openrc" havend
