@@ -97,7 +97,7 @@ media-sound/zita-ajbridge 0.8.2: zita-ajbridge allows an ALSA device to be used 
 net-dns/jddclient 0.2.3: A Dynamic DNS Client written in janet
 net-misc/aria2p 0.11.1-r1: Command-line tool and Python library to interact with aria2c through JSON-RPC
 net-misc/urlscan 0.9.6: Launch URLs contained in a text content on a web browser
-net-p2p/haven-main 3.0.3: Haven protocol(XHV) command line wallet
+net-p2p/haven-main 3.0.5: Haven protocol(XHV) command line wallet
 net-p2p/lbry 0.53.3-r1: A browser for the LBRY network, a digital marketplace controlled by its users.
 net-p2p/monero 0.18.1.0: The secure, private, untraceable cryptocurrency
 net-p2p/stig 0.12.1-r1: TUI and CLI for the BitTorrent client Transmission
