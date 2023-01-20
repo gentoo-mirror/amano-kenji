@@ -10,5 +10,5 @@ LICENSE=EPL-1.0
 RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/candid82/joker/archive/v1.0.0.tar.gz -> joker-1.0.0.tar.gz mirror://amano-kenji/joker-1.0.0-deps.tar.xz
-_eclasses_=go-module	4c4b34f361efda91762ffeda8f632c02
+_eclasses_=go-module	fdf8c78611f9efa20d26b955399a44c7
 _md5_=7f00b4b025abc2ac47cce81c1ce3857f

@@ -10,5 +10,5 @@ RDEPEND=net-dns/openresolv net-vpn/wireguard-tools
 RESTRICT=primaryuri strip
 SLOT=0
 SRC_URI=https://github.com/sentinel-official/cli-client/archive/refs/tags/v0.1.9.tar.gz -> sentinel-cli-client-0.1.9.tar.gz mirror://amano-kenji/sentinel-cli-client-0.1.9-deps.tar.xz
-_eclasses_=go-module	4c4b34f361efda91762ffeda8f632c02
+_eclasses_=go-module	fdf8c78611f9efa20d26b955399a44c7
 _md5_=2660c095d62c1f264a8cfa6417c456b6
