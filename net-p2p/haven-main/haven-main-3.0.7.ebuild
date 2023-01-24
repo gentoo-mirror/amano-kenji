@@ -20,6 +20,7 @@ KEYWORDS="~amd64"
 IUSE="lzma unwind +readline ldns xml doc test"
 
 CDEPEND=">=dev-libs/boost-1.67.0:=
+	<dev-libs/boost-1.81:=
 	>=net-libs/zeromq-3.0.0:=[pgm]
 	dev-libs/libsodium:=
 	>=net-dns/unbound-1.4.16:=[threads]
