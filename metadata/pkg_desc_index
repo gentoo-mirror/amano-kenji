@@ -3,7 +3,6 @@ acct-user/monero 0: System user: monero
 app-arch/unarr 1.1.0_pre20200201-r2: A lightweight decompression library with support for rar, tar and zip archives
 app-crypt/lssecret 0_p20190703: List all secret items using libsecret (e.g. GNOME Keyring).
 app-crypt/pass_secret_service 0_p20220718-r2: dbus-service to serve secret-service api with pass backend
-app-misc/anki-bin 2.1.55-r1 2.1.56-r1: A spaced-repetition memory training program (flash cards)
 app-misc/dragon 1.1.1: Drag and drop source/target for X
 app-misc/lf 28: a terminal file manager written in Go
 app-misc/ranger 1.9.3_p20220615: A vim-inspired file manager for the console
@@ -86,7 +85,7 @@ media-fonts/koruri 20210720: Japanese TrueType font based on M+ outline fonts an
 media-fonts/material-design-icons 20200810: Font containing material design icons
 media-fonts/mononoki 1.3: a font for programming and code review
 media-fonts/nanum 2018-r1: Korean fonts distributed by naver
-media-fonts/nerd-fonts-symbols 2.2.2: Symbols-only fonts from nerd fonts
+media-fonts/nerd-fonts-symbols 2.2.2 2.3.2: Symbols-only fonts from nerd fonts
 media-gfx/vimiv 0.8.0: An image viewer with vim-like keybindings
 media-gfx/yacreader 9.8.2: A comic reader for reading and managing your digital comic collection
 media-libs/zita-alsa-pcmi 0.3.2: Provides easy access to ALSA PCM devices
@@ -97,7 +96,7 @@ media-sound/zita-ajbridge 0.8.2: zita-ajbridge allows an ALSA device to be used 
 net-dns/jddclient 0.2.3: A Dynamic DNS Client written in janet
 net-misc/aria2p 0.11.1-r1: Command-line tool and Python library to interact with aria2c through JSON-RPC
 net-misc/urlscan 0.9.6: Launch URLs contained in a text content on a web browser
-net-p2p/haven-main 3.0.5: Haven protocol(XHV) command line wallet
+net-p2p/haven-main 3.0.7: Haven protocol(XHV) command line wallet
 net-p2p/lbry 0.53.3-r1: A browser for the LBRY network, a digital marketplace controlled by its users.
 net-p2p/monero 0.18.1.0: The secure, private, untraceable cryptocurrency
 net-p2p/stig 0.12.1-r1: TUI and CLI for the BitTorrent client Transmission
