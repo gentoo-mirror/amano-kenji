@@ -5,7 +5,7 @@ inherit go-module pam systemd
 DESCRIPTION="Dead simple CLI Display Manager on TTY"
 HOMEPAGE="https://github.com/tvrzna/emptty"
 SRC_URI="https://github.com/tvrzna/emptty/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz
-	mirror://amano-kenji/${PN}-0.8.1-deps.tar.xz"
+	https://codeberg.org/amano.kenji/gentoo-${PN}/raw/branch/master/${P}-deps.tar.xz"
 
 LICENSE="MIT"
 SLOT="0"
