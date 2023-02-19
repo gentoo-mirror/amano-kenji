@@ -11,5 +11,5 @@ RDEPEND=sys-libs/pam
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://github.com/FredrikAleksander/pam_rundir/archive/refs/tags/v1.0.1.tar.gz -> pam_rundir-1.0.1.tar.gz
-_eclasses_=toolchain-funcs	9a610728b9bcca1919234cceb35a1027	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	69394e25812406faa1f90edaf4969395	pam	01b77091d5b6560b0aeafa7fbb1bd818
+_eclasses_=toolchain-funcs	cf009a3ed4e5bef503e7a9f215791a78	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	69394e25812406faa1f90edaf4969395	pam	01b77091d5b6560b0aeafa7fbb1bd818
 _md5_=8594214a684f0a9968831832c868117f
