@@ -1,4 +1,4 @@
-BDEPEND=dev-lang/rakudo:= test? ( dev-raku/App-Prove6 )
+BDEPEND=dev-lang/rakudo test? ( dev-raku/App-Prove6 )
 DEFINED_PHASES=compile install test
 DEPEND=dev-raku/Shell-Command
 DESCRIPTION=An attempt to simplify building native code for a Raku module.
@@ -12,5 +12,5 @@ RDEPEND=dev-raku/Shell-Command dev-lang/rakudo:=
 RESTRICT=primaryuri !test? ( test )
 SLOT=0
 SRC_URI=https://github.com/retupmoca/P6-LibraryMake/archive/74fdf7154bf6b13713a5486a5aff9a3b649cb251.tar.gz -> LibraryMake-1.0.0_p20220410.tar.gz
-_eclasses_=rakudo	3732388ce8647ccece03225e76e5a389
+_eclasses_=rakudo	306c6544274c22c5d40fdef142dc022d
 _md5_=3b2368df28794070e63a3d7d6965dccc

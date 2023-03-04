@@ -1,4 +1,4 @@
-BDEPEND=dev-lang/rakudo:=
+BDEPEND=dev-lang/rakudo
 DEFINED_PHASES=compile install test
 DESCRIPTION=A powerful getopt implementation
 EAPI=8
@@ -10,5 +10,5 @@ RDEPEND=dev-lang/rakudo:=
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://cpan/authors/id//L/LE/LEONT/Perl6/Getopt-Long-0.3.3.tar.gz
-_eclasses_=rakudo	3732388ce8647ccece03225e76e5a389
+_eclasses_=rakudo	306c6544274c22c5d40fdef142dc022d
 _md5_=8328d9b47b76fbcd1bd8dcbdc094107d

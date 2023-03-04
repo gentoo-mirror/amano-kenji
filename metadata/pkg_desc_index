@@ -26,9 +26,9 @@ dev-janet/utf8 0.4: Utility functions for UTF-8
 dev-janet/xmrig 0.2: A janet library for xmrig HTTP API
 dev-lang/janet 1.25.1 1.26.0: A functional and imperative language for scripting and embedding
 dev-lang/joker 1.0.0: a small Clojure interpreter and linter written in Go.
-dev-lang/moarvm 2022.07 2022.12: A 6model-based VM for NQP and Raku
-dev-lang/nqp 2022.07 2022.12: Not Quite Perl, a Raku bootstrapping compiler
-dev-lang/rakudo 2022.07 2022.12: A compiler for the Raku programming language
+dev-lang/moarvm 2023.02-r1: A 6model-based VM for NQP and Raku
+dev-lang/nqp 2023.02-r1: Not Quite Perl, a Raku bootstrapping compiler
+dev-lang/rakudo 2023.02-r1: A compiler for the Raku programming language
 dev-libs/randomx 1.1.8 1.1.9: Proof of work algorithm based on random code execution
 dev-libs/supercop 0_p20200827: Fast cryptographic operations for Monero wallets
 dev-lisp/parinfer-rust 0.4.3_p20210405: Infer parentheses for Clojure, Lisp and Scheme.
@@ -110,7 +110,7 @@ sys-libs/basu 0.2.0: sd-bus library extracted from systemd
 sys-libs/libfixposix 0.4.3: Thin wrapper over POSIX syscalls
 sys-process/dinit 0.15.1-r1 0.16.1: service manager and init system
 www-client/nyxt 2.2.3: Nyxt - the internet on your terms.
-www-misc/buku-fzf 0.3.13: A buku bookmark browser
+www-misc/buku-fzf 0.3.14: A buku bookmark browser
 www-misc/bukubrow 5.3.0: Host application for the Bukubrow WebExtension
 x11-misc/console-tdm 1.4.1: Console display manager based on CDM
 x11-misc/tbsm 0.5: A pure bash session or application launcher. Inspired by cdm, tdm and krunner
