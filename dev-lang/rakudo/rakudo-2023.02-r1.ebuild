@@ -1,36 +1,31 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 inherit java-pkg-opt-2
 
 DESCRIPTION="A compiler for the Raku programming language"
-HOMEPAGE="https://rakudo.org"
-
-if [[ ${PV} == "9999" ]]; then
-	EGIT_REPO_URI="https://github.com/rakudo/${PN}.git"
-	inherit git-r3
-else
-	SRC_URI="https://rakudo.org/dl/${PN}/${P}.tar.gz"
-	KEYWORDS="~amd64 ~x86"
-fi
-
+HOMEPAGE="https://rakudo.org
+	https://github.com/rakudo/rakudo"
+SRC_URI="https://rakudo.org/dl/${PN}/${P}.tar.gz"
 LICENSE="Artistic-2"
 SLOT="0"
-# TODO: add USE="javascript" once that's usable in nqp
-IUSE="clang java +moar test"
-RESTRICT="!test? ( test )
-	primaryuri"
+KEYWORDS="~amd64 ~x86"
+IUSE="java +moar test"
+RESTRICT="!test? ( test )"
 REQUIRED_USE="|| ( java moar )"
 
-CDEPEND="~dev-lang/nqp-${PV}:${SLOT}=[java?,moar?,clang=]"
-RDEPEND="${CDEPEND}
-	java? ( >=virtual/jre-1.9 )"
-DEPEND="${CDEPEND}
-	clang? ( sys-devel/clang )
+CDEPEND="~dev-lang/nqp-${PV}:${SLOT}=[java?,moar?]"
+RDEPEND="
+	${CDEPEND}
+	java? ( >=virtual/jre-1.9 )
+"
+DEPEND="
+	${CDEPEND}
 	java? ( >=virtual/jdk-1.9 )
-	>=dev-lang/perl-5.10"
+	>=dev-lang/perl-5.10
+"
 
 pkg_pretend() {
 	if has_version dev-lang/rakudo; then
