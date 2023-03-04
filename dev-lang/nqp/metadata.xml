@@ -6,7 +6,6 @@
     <name>Patrick Lauer</name>
   </maintainer>
   <use>
-    <flag name="clang">Toggle usage of the clang compiler in conjunction with MoarVM</flag>
     <flag name="moar">Build the MoarVM backend (experimental/broken)</flag>
   </use>
   <upstream>

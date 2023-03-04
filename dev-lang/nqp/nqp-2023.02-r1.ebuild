@@ -1,40 +1,38 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 inherit java-pkg-opt-2 multibuild
 
-if [[ ${PV} == "9999" ]]; then
-	EGIT_REPO_URI="https://github.com/perl6/${PN}.git"
-	inherit git-r3
-else
-	SRC_URI="https://github.com/perl6/${PN}/releases/download/${PV}/${P}.tar.gz"
-	KEYWORDS="~amd64 ~x86"
-fi
-
 DESCRIPTION="Not Quite Perl, a Raku bootstrapping compiler"
-HOMEPAGE="https://rakudo.org"
-
+HOMEPAGE="https://rakudo.org
+	https://github.com/Raku/nqp"
+SRC_URI="https://github.com/Raku/${PN}/releases/download/${PV}/${P}.tar.gz"
 LICENSE="Artistic-2"
 SLOT="0"
-IUSE="doc clang java +moar test"
-RESTRICT="!test? ( test )
-	primaryuri"
+KEYWORDS="~amd64 ~x86"
+IUSE="doc java +moar test"
+RESTRICT="!test? ( test )"
 REQUIRED_USE="|| ( java moar )"
 
-CDEPEND="java? (
+CDEPEND="
+	java? (
 		dev-java/asm:4
 		dev-java/jna:4
 	)
-	moar? ( ~dev-lang/moarvm-${PV}[clang=] )"
-RDEPEND="${CDEPEND}
-	java? ( >=virtual/jre-1.9 )"
+	moar? ( ~dev-lang/moarvm-${PV} )
+"
+RDEPEND="
+	${CDEPEND}
+	java? ( >=virtual/jre-1.9 )
+"
 DEPEND="${CDEPEND}"
-BDEPEND="${CDEPEND}
-	clang? ( sys-devel/clang )
+BDEPEND="
+	${CDEPEND}
 	java? ( >=virtual/jdk-1.9 )
-	dev-lang/perl"
+	dev-lang/perl
+"
 
 pkg_pretend() {
 	if has_version dev-lang/rakudo || has_version dev-lang/nqp; then
@@ -52,15 +50,15 @@ src_prepare() {
 
 	multibuild_copy_sources
 
-	# This will pull in conditional java_prepare
-	default
+	java-pkg-opt-2_src_prepare
 }
 
 nqp_configure() {
 	pushd "${BUILD_DIR}" > /dev/null || die
 	local myconfargs=(
 		"--backend=${MULTIBUILD_VARIANT}"
-		"--prefix=${EPREFIX}/usr" )
+		"--prefix=${EPREFIX}/usr"
+	)
 
 	perl Configure.pl "${myconfargs[@]}" || die
 	popd || die
