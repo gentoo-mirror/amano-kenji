@@ -8,7 +8,7 @@ inherit janet-executable
 DESCRIPTION="It launches an executable in an archive file with dosbox."
 HOMEPAGE="https://codeberg.org/amano.kenji/simple-dosbox-launcher"
 SRC_URI="https://codeberg.org/amano.kenji/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
-LICENSE="public-domain"
+LICENSE="0BSD"
 SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="primaryuri"
