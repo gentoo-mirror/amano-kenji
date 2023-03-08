@@ -7,7 +7,7 @@ app-misc/dragon 1.1.1: Drag and drop source/target for X
 app-misc/lf 28: a terminal file manager written in Go
 app-misc/ranger 1.9.3_p20220615: A vim-inspired file manager for the console
 app-misc/sdl-jstest 0.2.1_p20220531: Test joysticks with SDL
-app-misc/simple-dosbox-launcher 0.1.3: It launches an executable in an archive file with dosbox.
+app-misc/simple-dosbox-launcher 0.1.4: It launches an executable in an archive file with dosbox.
 app-misc/task-spooler 1.0: a Unix batch system where the tasks spooled run one after the other.
 app-shells/peco 0.5.10: Simplistic interactive filtering tool
 dev-janet/circlet 0_alpha20200616: an HTTP and networking library
