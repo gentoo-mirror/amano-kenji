@@ -9,5 +9,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=OFL-1.1
 SLOT=0
 SRC_URI=https://github.com/Templarian/MaterialDesign-Font/archive/b0edb548aa5156a009513e47fd8c46c7f47db6d8.tar.gz -> material-design-icons-20200810.tar.gz
-_eclasses_=font	5e03cb70902daa9ff8967c61130f0f60
+_eclasses_=font	aa113a3df9cd0a9693a1c1ee7c34a6eb
 _md5_=c4284b277b73a3af907a098465c55843
