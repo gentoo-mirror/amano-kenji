@@ -3,7 +3,6 @@
 # * generated automatically using pmaint *
 
 app-arch/unarr:7z - Enable support for 7z
-app-misc/sdl-jstest:sdl2 - Support for SDL2
 dev-lang/moarvm:asan - Enable clang's Address Sanitizer functionality. Expect longer compile time.
 dev-lang/moarvm:jit - Enable Just-In-Time-Compiler. Has no effect except on AMD64 and Darwin.
 dev-lang/moarvm:optimize - Enable optimization via CFLAGS
@@ -12,6 +11,7 @@ dev-lang/nqp:moar - Build the MoarVM backend (experimental/broken)
 dev-lang/rakudo:moar - Use the MoarVM as backend
 dev-python/JACK-Client:numpy - access the input and output buffers in the process callback as NumPy arrays.
 dev-python/termdown:speak - Support for spoken countdown
+games-util/sdl-jstest:sdl2 - Support for SDL2
 gui-apps/gammastep:geoclue - Control dependency on app-misc/geoclue
 media-gfx/yacreader:qrencode - Support for encoding QR codes
 media-libs/zita-alsa-pcmi:tools - Install executables

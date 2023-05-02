@@ -6,7 +6,6 @@ app-crypt/pass_secret_service 0_p20220718-r2: dbus-service to serve secret-servi
 app-misc/dragon 1.1.1: Drag and drop source/target for X
 app-misc/lf 28: a terminal file manager written in Go
 app-misc/ranger 1.9.3_p20220615: A vim-inspired file manager for the console
-app-misc/sdl-jstest 0.2.1_p20220531: Test joysticks with SDL
 app-misc/simple-dosbox-launcher 0.1.4: It launches an executable in an archive file with dosbox.
 app-misc/task-spooler 1.0: a Unix batch system where the tasks spooled run one after the other.
 app-shells/peco 0.5.10: Simplistic interactive filtering tool
@@ -20,7 +19,7 @@ dev-janet/posix-spawn 0.0.1_p20220806: A process API for janet wrapping posix-sp
 dev-janet/process 0_alpha20200509: A janet module for running child processes.
 dev-janet/repl-tools 0.3: a set of functions for janet REPL.
 dev-janet/rlrepl 0_alpha20200119: A janet REPL using readline.
-dev-janet/sh 0.0.1_p20220707: A janet module for shell functions.
+dev-janet/sh 0.0.1_p20220707 0.0.1_p20230425: A janet module for shell functions.
 dev-janet/spork 0_p20220720: Various Janet utility modules - the official "Contrib" library.
 dev-janet/utf8 0.4: Utility functions for UTF-8
 dev-janet/xmrig 0.2: A janet library for xmrig HTTP API
@@ -73,6 +72,7 @@ dev-raku/Text-MiscUtils 0.0.6: A bag of small text processing tricks
 dev-raku/URI-Encode 0.09: A Raku module for encoding / decoding URIs
 dev-raku/fez 37-r1: Command line tool for uploading distributions to zef ecosystem
 dev-raku/zef 0.13.8-r1: Raku / Perl6 Module Management
+games-util/sdl-jstest 0.2.1_p20220531: Test joysticks with SDL
 gui-apps/bemenu 0.6.3_p20211104: dmenu clone for wayland
 gui-apps/emptty 0.9.1: Dead simple CLI Display Manager on TTY
 gui-apps/gammastep 2.0.2-r1: A screen color temperature adjusting software
@@ -85,7 +85,7 @@ media-fonts/koruri 20210720: Japanese TrueType font based on M+ outline fonts an
 media-fonts/material-design-icons 20200810: Font containing material design icons
 media-fonts/mononoki 1.5: a font for programming and code review
 media-fonts/nanum 2018-r1: Korean fonts distributed by naver
-media-fonts/nerd-fonts-symbols 2.3.2 2.3.3: Symbols-only fonts from nerd fonts
+media-fonts/nerd-fonts-symbols 2.3.3 3.0.0: Symbols-only fonts from nerd fonts
 media-gfx/vimiv 0.8.0: An image viewer with vim-like keybindings
 media-gfx/yacreader 9.8.2: A comic reader for reading and managing your digital comic collection
 media-libs/zita-alsa-pcmi 0.3.2: Provides easy access to ALSA PCM devices
@@ -100,6 +100,7 @@ net-p2p/haven-main 3.0.8: Haven protocol(XHV) command line wallet
 net-p2p/lbry 0.53.3-r1: A browser for the LBRY network, a digital marketplace controlled by its users.
 net-p2p/monero 0.18.1.0: The secure, private, untraceable cryptocurrency
 net-p2p/stig 0.12.1-r1: TUI and CLI for the BitTorrent client Transmission
+net-print/brother-dcp1610w-bin 3.0.1-r2: Brother printer driver for DCP-1610W
 net-vpn/sentinel-cli-client 0.1.9-r1: Sentinel VPN CLI Client
 sys-apps/flashbench 2020.01.23: Testing tool for managed flash memory devices
 sys-auth/dumb_runtime_dir 1.0.4: Creates an XDG_RUNTIME_DIR on login and never removes it.
