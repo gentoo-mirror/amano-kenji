@@ -1,12 +1,9 @@
-# Copyright 1999-2021 Gentoo Authors
-# Distributed under the terms of the GNU General Public License v2
-
 EAPI=8
 
 inherit cmake
 
 DESCRIPTION="Test joysticks with SDL"
-SRC_URI="mirror://amano-kenji/${P}.tar.bz2"
+SRC_URI="https://codeberg.org/amano.kenji/sdl-jstest/raw/branch/master/${P}.tar.xz"
 HOMEPAGE="https://gitlab.com/sdl-jstest/sdl-jstest"
 LICENSE="GPL-3+"
 SLOT="0"
