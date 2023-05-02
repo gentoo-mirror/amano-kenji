@@ -13,15 +13,11 @@ S="${WORKDIR}"
 FONT_SUFFIX="ttf"
 FONT_CONF=( "${S}/10-nerd-font-symbols.conf" )
 BDEPEND="app-arch/unzip"
+DOCS="readme.md"
 
 src_unpack() {
 	cp "${DISTDIR}/${P}-10-nerd-font-symbols.conf" 10-nerd-font-symbols.conf
 	unpack "${P}-NerdFontsSymbolsOnly.zip"
-}
-
-src_prepare() {
-	default
-	rm *Windows*.ttf
 }
 
 pkg_postinst() {
