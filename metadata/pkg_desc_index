@@ -74,7 +74,7 @@ dev-raku/fez 37-r1: Command line tool for uploading distributions to zef ecosyst
 dev-raku/zef 0.13.8-r1: Raku / Perl6 Module Management
 games-util/sdl-jstest 0.2.1_p20220531: Test joysticks with SDL
 gui-apps/bemenu 0.6.3_p20211104: dmenu clone for wayland
-gui-apps/emptty 0.9.1: Dead simple CLI Display Manager on TTY
+gui-apps/emptty 0.9.1 0.10.0: Dead simple CLI Display Manager on TTY
 gui-apps/gammastep 2.0.2-r1: A screen color temperature adjusting software
 gui-apps/wlsunset 0.2_p20220504: Day/night gamma adjustments for Wayland
 media-fonts/font-awesome-extension 0.0.3: icon font that extends font-awesome
