@@ -43,7 +43,7 @@ dev-python/librouteros 3.0.0-r1: Python implementation of routeros api
 dev-python/orjson-bin 3.6.7: Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy
 dev-python/pyalsaaudio 0.8.4-r1: A Python wrapper for the ALSA API
 dev-python/pyfiglet 0.8.0-r4: Pure-python FIGlet implementation
-dev-python/pypass 0.2.1: Python implementation of pass
+dev-python/pypass 0.2.1-r1: Python implementation of pass
 dev-python/python-osc 1.7.3-r1: Open Sound Control server and client in pure python
 dev-python/stringcase 1.2.0: Convert string cases between camel case, pascal case, snake case etc.
 dev-python/td-watson 2.1.0: A wonderful CLI to track your time!
@@ -94,12 +94,12 @@ media-sound/jackminimix 0.2.1: a simple mixer for the Jack with an OSC control i
 media-sound/pyradio 0.7.4: Command line internet radio player
 media-sound/zita-ajbridge 0.8.2: zita-ajbridge allows an ALSA device to be used as a jack client.
 net-dns/jddclient 0.2.3: A Dynamic DNS Client written in janet
-net-misc/aria2p 0.11.1-r1: Command-line tool and Python library to interact with aria2c through JSON-RPC
+net-misc/aria2p 0.11.1-r2: Command-line tool and Python library to interact with aria2c through JSON-RPC
 net-misc/urlscan 0.9.6: Launch URLs contained in a text content on a web browser
 net-p2p/haven-main 3.0.8: Haven protocol(XHV) command line wallet
 net-p2p/lbry 0.53.3-r1: A browser for the LBRY network, a digital marketplace controlled by its users.
 net-p2p/monero 0.18.1.0: The secure, private, untraceable cryptocurrency
-net-p2p/stig 0.12.1-r1: TUI and CLI for the BitTorrent client Transmission
+net-p2p/stig 0.12.3: TUI and CLI for the BitTorrent client Transmission
 net-print/brother-dcp1610w-bin 3.0.1-r2: Brother printer driver for DCP-1610W
 net-vpn/sentinel-cli-client 0.1.9-r1: Sentinel VPN CLI Client
 sys-apps/flashbench 2020.01.23: Testing tool for managed flash memory devices
