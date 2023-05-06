@@ -14,7 +14,7 @@ LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="primaryuri"
-BDEPEND="dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}]
+BDEPEND="dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}]
 	dev-python/pbr[${PYTHON_USEDEP}]"
 RDEPEND="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
