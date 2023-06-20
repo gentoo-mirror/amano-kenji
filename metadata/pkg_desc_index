@@ -23,7 +23,7 @@ dev-janet/sh 0.0.1_p20220707 0.0.1_p20230425: A janet module for shell functions
 dev-janet/spork 0_p20220720: Various Janet utility modules - the official "Contrib" library.
 dev-janet/utf8 0.4: Utility functions for UTF-8
 dev-janet/xmrig 0.2: A janet library for xmrig HTTP API
-dev-lang/janet 1.27.0 1.28.0: A functional and imperative language for scripting and embedding
+dev-lang/janet 1.28.0 1.29.1: A functional and imperative language for scripting and embedding
 dev-lang/joker 1.0.0: a small Clojure interpreter and linter written in Go.
 dev-lang/moarvm 2023.02-r1 2023.05-r1: A 6model-based VM for NQP and Raku
 dev-lang/nqp 2023.02-r2 2023.05-r1: Not Quite Perl, a Raku bootstrapping compiler
