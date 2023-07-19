@@ -109,7 +109,7 @@ sys-apps/flashbench 2020.01.23: Testing tool for managed flash memory devices
 sys-auth/dumb_runtime_dir 1.0.4: Creates an XDG_RUNTIME_DIR on login and never removes it.
 sys-auth/pam-gnupg 0.2_p20201125-r2: Unlock GnuPG keys on login
 sys-auth/pam_rundir 1.0.1-r6: A PAM module that provides XDG_RUNTIME_DIR
-sys-fs/sanoid 2.1.0: Policy-driven snapshot management and replication tools.
+sys-fs/sanoid 2.1.0 2.2.0: Policy-driven snapshot management and replication tools.
 sys-libs/basu 0.2.0: sd-bus library extracted from systemd
 sys-libs/libfixposix 0.4.3: Thin wrapper over POSIX syscalls
 sys-process/dinit 0.15.1-r1 0.16.1: service manager and init system

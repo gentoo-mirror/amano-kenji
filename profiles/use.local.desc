@@ -23,4 +23,5 @@ net-p2p/monero:daemon - Build the Monero daemon used to connect to the P2P netwo
 net-p2p/monero:tools - Build tools used to manipulate the blockchain as it is stored on disk.
 net-p2p/monero:wallet-cli - Build the command line wallet, monero-wallet-cli.
 net-p2p/monero:wallet-rpc - Build the RPC wallet, monero-wallet-rpc.
+sys-fs/sanoid:cronjob - Install a cron job for this package
 sys-libs/basu:caps - Depend on sys-libs/libcap
