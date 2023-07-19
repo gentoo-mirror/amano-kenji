@@ -5,4 +5,7 @@
     Sanoid is a policy-driven snapshot management tool for ZFS filesystems.
     When combined with the Linux KVM hypervisor, you can use it to make your systems functionally immortal.
   </longdescription>
+  <use>
+    <flag name="cronjob">Install a cron job for this package</flag>
+  </use>
 </pkgmetadata>
