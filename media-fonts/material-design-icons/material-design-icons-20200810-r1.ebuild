@@ -1,12 +1,9 @@
-# Copyright 1999-2020 Gentoo Authors
-# Distributed under the terms of the GNU General Public License v2
-
-EAPI=7
+EAPI=8
 inherit font
 
 COMMIT="b0edb548aa5156a009513e47fd8c46c7f47db6d8"
 DESCRIPTION="Font containing material design icons"
-HOMEPAGE="http://materialdesignicons.com/"
+HOMEPAGE="https://pictogrammers.com/library/mdi/"
 SRC_URI="https://github.com/Templarian/MaterialDesign-Font/archive/${COMMIT}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="OFL-1.1"
