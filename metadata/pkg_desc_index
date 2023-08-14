@@ -105,7 +105,6 @@ net-p2p/lbry 0.53.3-r1: A browser for the LBRY network, a digital marketplace co
 net-p2p/monero 0.18.1.0: The secure, private, untraceable cryptocurrency
 net-p2p/stig 0.12.3: TUI and CLI for the BitTorrent client Transmission
 net-print/brother-dcp1610w-bin 3.0.1-r2: Brother printer driver for DCP-1610W
-net-vpn/sentinel-cli-client 0.1.9-r1: Sentinel VPN CLI Client
 sys-apps/flashbench 2020.01.23: Testing tool for managed flash memory devices
 sys-auth/dumb_runtime_dir 1.0.4: Creates an XDG_RUNTIME_DIR on login and never removes it.
 sys-auth/pam-gnupg 0.2_p20201125-r2: Unlock GnuPG keys on login
