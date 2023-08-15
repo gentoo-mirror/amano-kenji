@@ -1,0 +1,14 @@
+BDEPEND=app-arch/unzip X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
+DEFINED_PHASES=install postinst postrm prepare setup
+DESCRIPTION=Korean fonts distributed by naver
+EAPI=8
+HOMEPAGE=https://hangeul.naver.com
+INHERIT=font
+IUSE=X
+KEYWORDS=~amd64 ~x86
+LICENSE=OFL-1.1
+RESTRICT=binchecks strip primaryuri
+SLOT=0
+SRC_URI=https://codeberg.org/amano-kenji-gentoo-overlay/nanum/raw/branch/master/NanumBarunGothic-2018-OTF.zip https://codeberg.org/amano-kenji-gentoo-overlay/nanum/raw/branch/master/NanumBarunGothic-2018-TTF.zip https://codeberg.org/amano-kenji-gentoo-overlay/nanum/raw/branch/master/NanumBarunGothicYetHanGul-2014-OTF.zip https://codeberg.org/amano-kenji-gentoo-overlay/nanum/raw/branch/master/NanumBarunGothicYetHanGul-2014-TTF.zip https://codeberg.org/amano-kenji-gentoo-overlay/nanum/raw/branch/master/NanumBarunPen-2014-OTF.zip https://codeberg.org/amano-kenji-gentoo-overlay/nanum/raw/branch/master/NanumBarunPen-2014-TTF.zip https://codeberg.org/amano-kenji-gentoo-overlay/nanum/raw/branch/master/NanumGothic-2016-OTF.zip https://codeberg.org/amano-kenji-gentoo-overlay/nanum/raw/branch/master/NanumGothic-2016-TTF.zip https://codeberg.org/amano-kenji-gentoo-overlay/nanum/raw/branch/master/NanumGothicCoding-2.5.zip https://codeberg.org/amano-kenji-gentoo-overlay/nanum/raw/branch/master/NanumGothicEco-2011-OTF.zip https://codeberg.org/amano-kenji-gentoo-overlay/nanum/raw/branch/master/NanumGothicEco-2011-TTF.zip https://codeberg.org/amano-kenji-gentoo-overlay/nanum/raw/branch/master/NanumMyeongJo-2014-OTF.zip https://codeberg.org/amano-kenji-gentoo-overlay/nanum/raw/branch/master/NanumMyeongJo-2014-TTF.zip https://codeberg.org/amano-kenji-gentoo-overlay/nanum/raw/branch/master/NanumMyeongJoEco-2011-OTF.zip https://codeberg.org/amano-kenji-gentoo-overlay/nanum/raw/branch/master/NanumMyeongJoEco-2011-TTF.zip https://codeberg.org/amano-kenji-gentoo-overlay/nanum/raw/branch/master/NanumMyeongJoYetHanGul-2014-OTF.zip https://codeberg.org/amano-kenji-gentoo-overlay/nanum/raw/branch/master/NanumMyeongJoYetHanGul-2014-TTF.zip https://codeberg.org/amano-kenji-gentoo-overlay/nanum/raw/branch/master/NanumSonGeulSsi-2010-OTF.zip https://codeberg.org/amano-kenji-gentoo-overlay/nanum/raw/branch/master/NanumSonGeulSsi-2010-TTF.zip https://codeberg.org/amano-kenji-gentoo-overlay/nanum/raw/branch/master/NanumSquare-2017-OTF.zip https://codeberg.org/amano-kenji-gentoo-overlay/nanum/raw/branch/master/NanumSquare-2017-TTF.zip https://codeberg.org/amano-kenji-gentoo-overlay/nanum/raw/branch/master/NanumSquareRound-2017-OTF.zip https://codeberg.org/amano-kenji-gentoo-overlay/nanum/raw/branch/master/NanumSquareRound-2017-TTF.zip
+_eclasses_=font	aa113a3df9cd0a9693a1c1ee7c34a6eb
+_md5_=832a645cf5edbca9ad3f4f82e1c90c3d
