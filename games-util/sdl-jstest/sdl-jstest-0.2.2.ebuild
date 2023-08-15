@@ -3,16 +3,16 @@ EAPI=8
 inherit cmake
 
 DESCRIPTION="Test joysticks with SDL"
-SRC_URI="https://codeberg.org/amano.kenji/sdl-jstest/raw/branch/master/${P}.tar.xz"
-HOMEPAGE="https://gitlab.com/sdl-jstest/sdl-jstest"
+SRC_URI="https://codeberg.org/amano-kenji-gentoo-overlay/${PN}/raw/branch/master/${P}.tar.xz"
+HOMEPAGE="https://github.com/Grumbel/sdl-jstest"
 LICENSE="GPL-3+"
 SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="primaryuri"
 IUSE="sdl +sdl2"
-BDEPEND=""
-RDEPEND="sdl? ( >=media-libs/libsdl-1.2 )
-	sdl2? ( media-libs/libsdl2[haptic] )
+DEPEND="sdl? ( >=media-libs/libsdl-1.2 )
+	sdl2? ( media-libs/libsdl2[haptic] )"
+RDEPEND="$DEPEND
 	>=sys-libs/ncurses-5"
 DOCS="README.md"
 
