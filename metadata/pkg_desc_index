@@ -22,9 +22,9 @@ dev-janet/spork 0_p20220720: Various Janet utility modules - the official "Contr
 dev-janet/utf8 0.4: Utility functions for UTF-8
 dev-janet/xmrig 0.2: A janet library for xmrig HTTP API
 dev-lang/janet 1.29.1 1.30.0: A functional and imperative language for scripting and embedding
-dev-lang/moarvm 2023.05-r1 2023.06-r1: A 6model-based VM for NQP and Raku
-dev-lang/nqp 2023.05-r1 2023.06-r1: Not Quite Perl, a Raku bootstrapping compiler
-dev-lang/rakudo 2023.05-r1 2023.06-r1: A compiler for the Raku programming language
+dev-lang/moarvm 2023.06-r1 2023.08-r1: A 6model-based VM for NQP and Raku
+dev-lang/nqp 2023.06-r1 2023.08-r1: Not Quite Perl, a Raku bootstrapping compiler
+dev-lang/rakudo 2023.06-r1 2023.08-r1: A compiler for the Raku programming language
 dev-libs/randomx 1.1.8 1.1.9: Proof of work algorithm based on random code execution
 dev-libs/supercop 0_p20200827: Fast cryptographic operations for Monero wallets
 dev-lisp/parinfer-rust 0.4.3_p20210405: Infer parentheses for Clojure, Lisp and Scheme.
@@ -60,7 +60,7 @@ dev-raku/File-Temp 0.0.10-r2: Create temporary files and directories.
 dev-raku/File-Which 1.0.1: Find the full or relative paths to an executable program
 dev-raku/Getopt-Long 0.3.3-r1: A powerful getopt implementation
 dev-raku/Inline-Perl5 0.59-r1: Use Perl 5 code in a Raku program
-dev-raku/JSON-Fast 0.17-r1: A naive imperative JSON parser in pure Raku
+dev-raku/JSON-Fast 0.17-r1 0.19: A naive imperative JSON parser in pure Raku
 dev-raku/LibraryMake 1.0.0_p20220410-r1: An attempt to simplify building native code for a Raku module.
 dev-raku/Shell-Command 0_pre20190129-r1: Cross-platform routines emulating common *NIX shell commands
 dev-raku/System-Query 0.1.6-r1: It collapses JSON dependent upon certain environmental information
@@ -109,7 +109,7 @@ sys-auth/pam_rundir 1.0.1-r6: A PAM module that provides XDG_RUNTIME_DIR
 sys-fs/sanoid 2.1.0 2.2.0: Policy-driven snapshot management and replication tools.
 sys-libs/basu 0.2.0: sd-bus library extracted from systemd
 sys-libs/libfixposix 0.4.3: Thin wrapper over POSIX syscalls
-sys-process/dinit 0.15.1-r1 0.16.1: service manager and init system
+sys-process/dinit 0.16.1 0.17.0: service manager and init system
 www-client/nyxt 2.2.3 3.0.0: Nyxt - the internet on your terms.
 www-misc/buku-fzf 0.3.14: A buku bookmark browser
 www-misc/bukubrow 5.3.0: Host application for the Bukubrow WebExtension
