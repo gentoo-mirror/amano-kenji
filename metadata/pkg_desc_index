@@ -25,8 +25,7 @@ dev-lang/janet 1.29.1 1.30.0: A functional and imperative language for scripting
 dev-lang/moarvm 2023.06-r1 2023.08-r1: A 6model-based VM for NQP and Raku
 dev-lang/nqp 2023.06-r1 2023.08-r1: Not Quite Perl, a Raku bootstrapping compiler
 dev-lang/rakudo 2023.06-r1 2023.08-r1: A compiler for the Raku programming language
-dev-libs/randomx 1.1.8 1.1.9: Proof of work algorithm based on random code execution
-dev-libs/supercop 0_p20200827: Fast cryptographic operations for Monero wallets
+dev-libs/boost 1.80.0: Boost Libraries for C++
 dev-lisp/parinfer-rust 0.4.3_p20210405: Infer parentheses for Clojure, Lisp and Scheme.
 dev-python/ECPy 1.2.5: a pure python Elliptic Curve library
 dev-python/JACK-Client 0.5.1-r1: JACK Audio Connection Kit (JACK) Client for Python
@@ -97,9 +96,8 @@ media-sound/pyradio 0.7.4: Command line internet radio player
 media-sound/zita-ajbridge 0.8.2: zita-ajbridge allows an ALSA device to be used as a jack client.
 net-dns/jddclient 0.2.3: A Dynamic DNS Client written in janet
 net-misc/urlscan 0.9.6: Launch URLs contained in a text content on a web browser
-net-p2p/haven-main 3.0.8: Haven protocol(XHV) command line wallet
+net-p2p/haven-main 3.2.1: Haven protocol(XHV) command line wallet
 net-p2p/lbry 0.53.3-r1: A browser for the LBRY network, a digital marketplace controlled by its users.
-net-p2p/monero 0.18.1.0: The secure, private, untraceable cryptocurrency
 net-p2p/stig 0.12.3: TUI and CLI for the BitTorrent client Transmission
 net-print/brother-dcp1610w-bin 3.0.1-r2: Brother printer driver for DCP-1610W
 sys-apps/flashbench 2020.01.23: Testing tool for managed flash memory devices

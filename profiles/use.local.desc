@@ -9,6 +9,13 @@ dev-lang/moarvm:optimize - Enable optimization via CFLAGS
 dev-lang/moarvm:ubsan - Enable clang's Undefined Behavior Sanitizer functionality. Expect longer compile time.
 dev-lang/nqp:moar - Build the MoarVM backend (experimental/broken)
 dev-lang/rakudo:moar - Use the MoarVM as backend
+dev-libs/boost:context - Build and install the Boost.Context (and Boost.Fiber) library and all other Boost libraries that depend on it
+dev-libs/boost:debug - Build and install only the debug version of the Boost libraries. Only enable this flag if you're developing against boost.
+dev-libs/boost:doc - Install the full API documentation documentation. This takes over 200MB of extra disk space.
+dev-libs/boost:nls - Build libboost_locale. This library requires compatible C library interfaces, which might not be provided by uClibc or other embedded libraries.
+dev-libs/boost:numpy - Optionally build NumPy extensions when Boost.Python is enabled
+dev-libs/boost:stacktrace - Build the full Boost.Stacktrace dynamic library instead of relying on the header-only implementation
+dev-libs/boost:tools - Build and install the boost tools (bcp, quickbook, inspect, wave)
 dev-python/JACK-Client:numpy - access the input and output buffers in the process callback as NumPy arrays.
 dev-python/termdown:speak - Support for spoken countdown
 games-util/sdl-jstest:sdl2 - Support for SDL2
@@ -19,9 +26,5 @@ media-libs/zita-resampler:tools - Install executables
 net-p2p/haven-main:ldns - SSL toolkit
 net-p2p/haven-main:lzma - lzma support in unwind
 net-p2p/haven-main:xml - xml support through dev-libs/expat
-net-p2p/monero:daemon - Build the Monero daemon used to connect to the P2P network.
-net-p2p/monero:tools - Build tools used to manipulate the blockchain as it is stored on disk.
-net-p2p/monero:wallet-cli - Build the command line wallet, monero-wallet-cli.
-net-p2p/monero:wallet-rpc - Build the RPC wallet, monero-wallet-rpc.
 sys-fs/sanoid:cronjob - Install a cron job for this package
 sys-libs/basu:caps - Depend on sys-libs/libcap
