@@ -4,13 +4,7 @@ inherit cmake
 
 DESCRIPTION="Haven protocol(XHV) command line wallet"
 HOMEPAGE="https://github.com/haven-protocol-org/haven-main"
-RANDOMX="f9ae3f235183c452962edd2a15384bdc67f7a11e"
-RANDOMX_P="randomx-${RANDOMX}"
-MINIUPNP="4c700e09526a7d546394e85628c57e9490feefa0"
-MINIUPNP_P="miniupnp-${MINIUPNP}"
-SRC_URI="https://github.com/haven-protocol-org/haven-main/archive/v${PV}.tar.gz -> ${P}.tar.gz
-	https://github.com/tevador/RandomX/archive/${RANDOMX}.tar.gz -> ${RANDOMX_P}.tar.gz
-	https://github.com/monero-project/miniupnp/archive/${MINIUPNP}.tar.gz -> ${MINIUPNP_P}.tar.gz"
+SRC_URI="https://codeberg.org/amano-kenji-gentoo-overlay/haven-main/raw/branch/master/${P}.tar.xz"
 LICENSE="MIT BSD"
 RESTRICT="primaryuri
 	!test? ( test )"
@@ -42,22 +36,13 @@ BDEPEND=">=sys-devel/gcc-4.7.3
 		app-doc/doxygen
 		media-gfx/graphviz
 	)"
-DOCS="README.md ANONYMITY_NETWORKS.md LEVIN_PROTOCOL.md RPC_API.html"
-
-src_unpack() {
-	default
-	# rmdir "${S}/haven-blockchain-explorer" || die
-	# mv "${WORKDIR}/haven-blockchain-explorer-${BLOCKCHAIN_EXPLORER}" "${S}/haven-blockchain-explorer" || die
-	rmdir "${S}"/external/{randomx,miniupnp} || die
-	# rm -r "${S}/translations" || die
-	mv "${WORKDIR}/RandomX-${RANDOMX}" "${S}/external/randomx" || die
-	mv "${WORKDIR}/miniupnp-${MINIUPNP}" "${S}/external/miniupnp" || die
-}
+DOCS=(README.md docs/ANONYMITY_NETWORKS.md docs/CONTRIBUTING.md docs/LEVIN_PROTOCOL.md docs/README.i18n.md docs/ZMQ.md
+docs/PORTABLE_STORAGE.md docs/images)
 
 src_configure() {
 	local mycmakeargs=(
 		-DBUILD_SHARED_LIBS=OFF
-		-DMANUAL_SUBMODULES=ON
+		-DMANUAL_SUBMODULES=OFF # Will this work?
 		-DUSE_DEVICE_TREZOR=OFF
 		-DBUILD_TESTS=$(usex test)
 		-DBUILD_DOCUMENTATION=$(usex doc)
