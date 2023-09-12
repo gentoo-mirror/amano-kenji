@@ -40,7 +40,7 @@ dev-python/keyring_pass 0.7.0: app-admin/pass backend for dev-python/keyring
 dev-python/librouteros 3.0.0-r1: Python implementation of routeros api
 dev-python/orjson-bin 3.6.7: Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy
 dev-python/pyalsaaudio 0.8.4-r1: A Python wrapper for the ALSA API
-dev-python/pyfiglet 0.8.0-r4 1.0.0: Pure-python FIGlet implementation
+dev-python/pyfiglet 0.8.0-r4 1.0.1: Pure-python FIGlet implementation
 dev-python/pypass 0.2.1-r1: Python implementation of pass
 dev-python/python-osc 1.7.3-r1: Open Sound Control server and client in pure python
 dev-python/stringcase 1.2.0: Convert string cases between camel case, pascal case, snake case etc.
