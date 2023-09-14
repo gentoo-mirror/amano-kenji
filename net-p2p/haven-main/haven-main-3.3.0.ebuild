@@ -31,7 +31,7 @@ RDEPEND="${CDEPEND}"
 BDEPEND=">=sys-devel/gcc-4.7.3
 	>=dev-util/cmake-3.5
 	virtual/pkgconfig
-	test? ( dev-cpp/gtest )
+	test? ( >=dev-cpp/gtest-1.5 )
 	doc? (
 		app-doc/doxygen
 		media-gfx/graphviz
