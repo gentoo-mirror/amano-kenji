@@ -10,6 +10,6 @@ LICENSE=MIT
 RDEPEND=sys-libs/pam x11-libs/libX11
 RESTRICT=primaryuri strip
 SLOT=0
-SRC_URI=https://github.com/tvrzna/emptty/archive/refs/tags/v0.10.0.tar.gz -> emptty-0.10.0.tar.gz https://codeberg.org/amano-kenji-gentoo-overlay/emptty/raw/branch/master/emptty-0.10.0-deps.tar.xz
+SRC_URI=https://github.com/tvrzna/emptty/archive/refs/tags/v0.11.0.tar.gz -> emptty-0.11.0.tar.gz https://codeberg.org/amano-kenji-gentoo-overlay/emptty/raw/branch/master/emptty-0.11.0-deps.tar.xz
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	go-module	8624eede24936fd7666e5298e5332f22	flag-o-matic	e5cc383ea8420f92fe3737be790021dc	pam	b56d0c9c20fc5b553f13c8ae165a10a5	systemd	c8b03e8df84486aa991d4396686e8942
 _md5_=5f5933c49304dc58a0a8ee2bf05d9d33
