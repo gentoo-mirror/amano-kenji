@@ -10,5 +10,5 @@ LICENSE=GPL-3
 RDEPEND=app-crypt/gnupg sys-libs/pam
 SLOT=0
 SRC_URI=https://github.com/cruegge/pam-gnupg/archive/99f1c2a3f903276c03a13692f50c292aa4b7bd37.tar.gz -> pam-gnupg-0.2_p20201125.tar.gz
-_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	6ae9a4347149b19a112caa1182d03bde	flag-o-matic	b1206d933fc5a96cc864180a3cdbf18c	pam	b56d0c9c20fc5b553f13c8ae165a10a5
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	6ae9a4347149b19a112caa1182d03bde	flag-o-matic	6b3c606c5de2531072ffd36eca06a5a9	pam	b56d0c9c20fc5b553f13c8ae165a10a5
 _md5_=b149e2397415f3aa5f1cb49c56d28af7
