@@ -26,8 +26,6 @@ src_prepare() {
 	distutils-r1_src_prepare
 	# This is required for preventing pyradio update notification.
 	sed -i 's/distro = None/distro = Gentoo Linux/' pyradio/config
-	# This is required to work around pyradio's failure to adapt to PEP 517
-	mkdir pyradio/__pycache__
 }
 
 src_install() {
