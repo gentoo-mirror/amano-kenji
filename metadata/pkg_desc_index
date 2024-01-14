@@ -106,7 +106,7 @@ sys-auth/pam-gnupg 0.2_p20201125-r2: Unlock GnuPG keys on login
 sys-auth/pam_rundir 1.0.1-r6: A PAM module that provides XDG_RUNTIME_DIR
 sys-fs/sanoid 2.1.0 2.2.0: Policy-driven snapshot management and replication tools.
 sys-libs/basu 0.2.0: sd-bus library extracted from systemd
-sys-process/dinit 0.17.0 0.17.1: service manager and init system
+sys-process/dinit 0.17.1 0.18.0: service manager and init system
 www-misc/buku-fzf 0.3.14: A buku bookmark browser
 www-misc/bukubrow 5.3.0: Host application for the Bukubrow WebExtension
 x11-misc/console-tdm 1.4.1: Console display manager based on CDM
