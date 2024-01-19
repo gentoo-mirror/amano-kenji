@@ -7,7 +7,7 @@ inherit janet-module
 
 DESCRIPTION="Various Janet utility modules - the official \"Contrib\" library."
 HOMEPAGE="https://github.com/janet-lang/spork"
-COMMIT="7b51d6243c6bcbec97dbfb77a1bf21edea55c0de"
+COMMIT="028ebe27062581cfd4a3a8a2e6bdbf26e6458b4a"
 SRC_URI="https://github.com/janet-lang/${PN}/archive/${COMMIT}.tar.gz -> janet-${P}.tar.gz"
 
 LICENSE="MIT"
