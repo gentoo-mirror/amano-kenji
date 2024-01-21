@@ -1,0 +1,14 @@
+BDEPEND=dev-janet/jpm
+DEFINED_PHASES=compile install
+DESCRIPTION=A janet scripting system for i3bar and swaybar
+EAPI=8
+HOMEPAGE=https://codeberg.org/amano.kenji/j3blocks-extra
+INHERIT=janet-module
+KEYWORDS=~amd64
+LICENSE=0BSD
+RDEPEND=dev-janet/spork dev-lang/janet
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=https://codeberg.org/amano.kenji/j3blocks-extra/archive/86e48d10ae6feeeeb858ebce754475614732afc9.tar.gz -> janet-j3blocks-extra-0_p20240121.tar.gz
+_eclasses_=janet-common	eb13d2e3fe73ace60601542e75c04894	janet-module	a6e2b341895c35cea9947f1d25b5177d
+_md5_=e6f39a313351f7e79226a2881f59c8cf
