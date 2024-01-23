@@ -18,7 +18,6 @@ dev-libs/boost:stacktrace - Build the full Boost.Stacktrace dynamic library inst
 dev-libs/boost:tools - Build and install the boost tools (bcp, quickbook, inspect, wave)
 dev-python/JACK-Client:numpy - access the input and output buffers in the process callback as NumPy arrays.
 dev-python/termdown:speak - Support for spoken countdown
-games-util/sdl-jstest:sdl2 - Support for SDL2
 gui-apps/gammastep:geoclue - Control dependency on app-misc/geoclue
 media-gfx/yacreader:qrencode - Support for encoding QR codes
 media-libs/zita-alsa-pcmi:tools - Install executables

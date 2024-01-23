@@ -10,7 +10,7 @@ app-misc/task-spooler 1.0: a Unix batch system where the tasks spooled run one a
 dev-janet/circlet 0_alpha20200616: an HTTP and networking library
 dev-janet/http 0.1.0_p20200207: A janet HTTP client
 dev-janet/j3blocks 0_p20240123: A janet scripting system for i3bar and swaybar
-dev-janet/j3blocks-extra 0_p20240123: A janet scripting system for i3bar and swaybar
+dev-janet/j3blocks-extra 0_p20240123-r1: A janet scripting system for i3bar and swaybar
 dev-janet/jdn 0.0.1_p20210206: Janet data notation
 dev-janet/jpm 1.1.0: It is for automating builds and downloading dependencies of Janet projects.
 dev-janet/json 0_pre20200117: A JSON module for janet.
@@ -75,7 +75,6 @@ dev-raku/URI-Encode 0.09: A Raku module for encoding / decoding URIs
 dev-raku/fez 37-r1: Command line tool for uploading distributions to zef ecosystem
 dev-raku/zef 0.13.8-r1: Raku / Perl6 Module Management
 dev-util/scc 3.2.0: scc is a very fast accurate code counter
-games-util/sdl-jstest 0.2.2: Test joysticks with SDL
 gui-apps/bemenu 0.6.3_p20211104: dmenu clone for wayland
 gui-apps/emptty 0.11.0: Dead simple CLI Display Manager on TTY
 gui-apps/gammastep 2.0.2-r1: A screen color temperature adjusting software
