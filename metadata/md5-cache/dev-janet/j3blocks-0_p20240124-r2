@@ -11,4 +11,4 @@ RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://codeberg.org/amano.kenji/j3blocks/archive/bf665238e17f485aabf860bd644484f58b788d3f.tar.gz -> janet-j3blocks-0_p20240124.tar.gz
 _eclasses_=janet-common	eb13d2e3fe73ace60601542e75c04894	janet-module	a6e2b341895c35cea9947f1d25b5177d
-_md5_=228dab62fea8b54053c8a832e1b55921
+_md5_=6112c0655497e1ca295d9f6d569f1881
