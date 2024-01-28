@@ -10,11 +10,14 @@ EXPORT_FUNCTIONS src_compile src_test src_install
 
 RDEPEND="dev-lang/rakudo:="
 BDEPEND="dev-lang/rakudo"
+# Don't enable tests for App-Prove6 and its dependencies because App-Prove6 is used to run tests.
 case "${CATEGORY}/${PN}" in
 	dev-raku/App-Prove6|dev-raku/Getopt-Long|dev-raku/TAP)
 		;;
+	dev-raku/Path-Finder|dev-raku/Pod-Usage|dev-raku/sigpipe)
+		;;
 	*)
-		BDEPEND="${BDEPEND} test? ( dev-raku/App-Prove6 )"
+		BDEPEND="test? ( dev-raku/App-Prove6 )"
 		IUSE="test"
 		RESTRICT="!test? ( test )"
 		;;
