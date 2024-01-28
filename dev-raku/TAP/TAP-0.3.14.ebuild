@@ -1,6 +1,3 @@
-# Copyright 2020-2022 Gentoo Authors
-# Distributed under the terms of the GNU General Public License v2
-
 EAPI="8"
 
 inherit rakudo
@@ -13,8 +10,3 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="primaryuri"
 DOCS="README.md Changes"
-
-src_test() {
-	raku -I lib t/source-file.t || die
-	raku -I lib t/string.t || die
-}

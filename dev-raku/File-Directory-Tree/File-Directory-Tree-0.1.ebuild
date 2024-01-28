@@ -1,11 +1,8 @@
-# Copyright 2020-2022 Gentoo Authors
-# Distributed under the terms of the GNU General Public License v2
-
 EAPI="8"
 
 inherit rakudo
 
-COMMIT="e386a00ecdd5a149c888257feb1715c8825d8545"
+COMMIT="759a9c90331df22a49de358fe89b2f65bde1cb6a"
 
 DESCRIPTION="Module for creating and deleting directories"
 HOMEPAGE="https://raku.land/github:labster/File::Directory::Tree"
