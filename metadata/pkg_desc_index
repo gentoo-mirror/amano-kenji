@@ -51,29 +51,29 @@ dev-python/termdown 1.18.0: Countdown timer and stopwatch in your terminal
 dev-python/types-Deprecated 1.2.9: a PEP 561 type stub for the Deprecated package
 dev-python/urwidtrees 1.0.3-r1: Tree widgets for urwid
 dev-python/xrpl-py 1.7.0: A pure Python implementation for interacting with the XRP Ledger
-dev-raku/App-Prove6 0.0.12-r2: Run tests through a TAP harness.
-dev-raku/Digest-MD5 0.05_p20170425-r1: MD5 Algorithm
-dev-raku/Distribution-Builder-MakeFromJSON 0.6-r2: Makefile based distribution builder
-dev-raku/File-Directory-Tree 0_pre20220314-r1: Module for creating and deleting directories
-dev-raku/File-Find 0.1.1: Get a lazy list of a directory tree
-dev-raku/File-Name-Editor 0.2.1-r1: A command line tool for renaming files in any text editor.
-dev-raku/File-Temp 0.0.10-r2: Create temporary files and directories.
-dev-raku/File-Which 1.0.1: Find the full or relative paths to an executable program
-dev-raku/Getopt-Long 0.3.3-r1: A powerful getopt implementation
-dev-raku/Inline-Perl5 0.59-r1: Use Perl 5 code in a Raku program
-dev-raku/JSON-Fast 0.17-r1 0.19: A naive imperative JSON parser in pure Raku
-dev-raku/LibraryMake 1.0.0_p20220410-r1: An attempt to simplify building native code for a Raku module.
-dev-raku/Shell-Command 0_pre20190129-r1: Cross-platform routines emulating common *NIX shell commands
-dev-raku/System-Query 0.1.6-r1: It collapses JSON dependent upon certain environmental information
-dev-raku/TAP 0.3.5-r1: An asynchronous TAP framework written in Raku.
-dev-raku/Term-termios 0_pre20180208-r1: termios routines for Raku
-dev-raku/Terminal-ANSIColor 0.5: Colorize terminal output
-dev-raku/Terminal-ANSIParser 0.0.2: ANSI/VT stream parser
-dev-raku/Terminal-LineEditor 0.0.11: Generalized terminal line editing
-dev-raku/Text-MiscUtils 0.0.6: A bag of small text processing tricks
-dev-raku/URI-Encode 0.09: A Raku module for encoding / decoding URIs
-dev-raku/fez 37-r1: Command line tool for uploading distributions to zef ecosystem
-dev-raku/zef 0.13.8-r1: Raku / Perl6 Module Management
+dev-raku/App-Prove6 0.0.17: Run tests through a TAP harness.
+dev-raku/Digest-MD5 0.05_p20170425-r2: MD5 Algorithm
+dev-raku/Distribution-Builder-MakeFromJSON 0.6-r3: Makefile based distribution builder
+dev-raku/File-Directory-Tree 0.1: Module for creating and deleting directories
+dev-raku/File-Name-Editor 0.2.1-r2: A command line tool for renaming files in any text editor.
+dev-raku/File-Temp 0.0.10-r3: Create temporary files and directories.
+dev-raku/Getopt-Long 0.4.2: A powerful getopt implementation
+dev-raku/Inline-Perl5 0.60: Use Perl 5 code in a Raku program
+dev-raku/JSON-Fast 0.19: A naive imperative JSON parser in pure Raku
+dev-raku/Path-Finder 0.4.7: Iterative, recursive file finder
+dev-raku/Pod-Usage 0.0.1: Extracts POD6 documentation to show usage information
+dev-raku/System-Query 0.1.6-r2: It collapses JSON dependent upon certain environmental information
+dev-raku/TAP 0.3.14: An asynchronous TAP framework written in Raku.
+dev-raku/Term-termios 0.2.7: termios routines for Raku
+dev-raku/Terminal-ANSIColor 0.10: Colorize terminal output
+dev-raku/Terminal-ANSIParser 0.0.3-r1: ANSI/VT stream parser
+dev-raku/Terminal-Capabilities 0.0.3: Container for terminal capabilities, with useful defaults
+dev-raku/Terminal-LineEditor 0.0.16: Generalized terminal line editing
+dev-raku/Text-MiscUtils 0.0.8: A bag of small text processing tricks
+dev-raku/URI-Encode 0.09-r1: A Raku module for encoding / decoding URIs
+dev-raku/fez 55: Command line tool for uploading distributions to zef ecosystem
+dev-raku/sigpipe 0.0.3: set up SIGPIPE correctly for CLI applications
+dev-raku/zef 0.21.2: Raku Module Management
 dev-util/scc 3.2.0: scc is a very fast accurate code counter
 gui-apps/bemenu 0.6.3_p20211104: dmenu clone for wayland
 gui-apps/emptty 0.11.0: Dead simple CLI Display Manager on TTY

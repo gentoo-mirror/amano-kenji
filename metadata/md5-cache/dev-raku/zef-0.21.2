@@ -1,8 +1,8 @@
 BDEPEND=test? ( dev-raku/App-Prove6 )
 DEFINED_PHASES=compile install test
-DESCRIPTION=A naive imperative JSON parser in pure Raku
+DESCRIPTION=Raku Module Management
 EAPI=8
-HOMEPAGE=https://raku.land/cpan:TIMOTIMO/JSON::Fast
+HOMEPAGE=https://raku.land/github:ugexe/zef
 INHERIT=rakudo
 IUSE=test
 KEYWORDS=~amd64
@@ -10,6 +10,6 @@ LICENSE=Artistic-2
 RDEPEND=dev-lang/rakudo:=
 RESTRICT=primaryuri !test? ( test )
 SLOT=0
-SRC_URI=mirror://cpan/authors/id//T/TI/TIMOTIMO/Perl6/JSON-Fast-0.19.tar.gz
+SRC_URI=https://github.com/ugexe/zef/archive/refs/tags/v0.21.2.tar.gz -> zef-0.21.2.tar.gz
 _eclasses_=rakudo	b67985b06f3ed315ae5d17a88ee61cda
-_md5_=886c09e1e08913e2cca7f0a732536d25
+_md5_=7ade1e8e0a40529053d755f746752b6b

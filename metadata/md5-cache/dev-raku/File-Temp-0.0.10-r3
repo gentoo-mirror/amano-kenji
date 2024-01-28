@@ -1,4 +1,4 @@
-BDEPEND=dev-lang/rakudo test? ( dev-raku/App-Prove6 )
+BDEPEND=test? ( dev-raku/App-Prove6 )
 DEFINED_PHASES=compile install test
 DEPEND=dev-raku/File-Directory-Tree
 DESCRIPTION=Create temporary files and directories.
@@ -12,5 +12,5 @@ RDEPEND=dev-raku/File-Directory-Tree dev-lang/rakudo:=
 RESTRICT=primaryuri !test? ( test )
 SLOT=0
 SRC_URI=mirror://zef/F/IL/FILE_TEMP/69f79c4c08341b8e5afcc414585cea34083ec4f5.tar.gz -> File-Temp-0.0.10.tar.gz
-_eclasses_=rakudo	306c6544274c22c5d40fdef142dc022d
-_md5_=9f7810f187d747a65c2503dbb51869a1
+_eclasses_=rakudo	b67985b06f3ed315ae5d17a88ee61cda
+_md5_=5ecdd1e83eb14593dee3da2f19cc4db7

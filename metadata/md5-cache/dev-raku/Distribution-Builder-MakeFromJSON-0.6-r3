@@ -1,4 +1,4 @@
-BDEPEND=dev-lang/rakudo test? ( dev-raku/App-Prove6 )
+BDEPEND=test? ( dev-raku/App-Prove6 )
 DEFINED_PHASES=compile install test
 DEPEND=dev-raku/System-Query
 DESCRIPTION=Makefile based distribution builder
@@ -12,5 +12,5 @@ RDEPEND=dev-raku/System-Query dev-lang/rakudo:=
 RESTRICT=primaryuri !test? ( test )
 SLOT=0
 SRC_URI=mirror://cpan/authors/id//N/NI/NINE/Perl6/Distribution-Builder-MakeFromJSON-0.6.tar.gz
-_eclasses_=rakudo	306c6544274c22c5d40fdef142dc022d
-_md5_=41699139c98b0335cb387579ee0545b5
+_eclasses_=rakudo	b67985b06f3ed315ae5d17a88ee61cda
+_md5_=5f451f5e0d72f6edd2c0b4af9c07f13a

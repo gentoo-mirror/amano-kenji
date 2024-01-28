@@ -1,8 +1,8 @@
 BDEPEND=test? ( dev-raku/App-Prove6 )
 DEFINED_PHASES=compile install test
-DESCRIPTION=A naive imperative JSON parser in pure Raku
+DESCRIPTION=ANSI/VT stream parser
 EAPI=8
-HOMEPAGE=https://raku.land/cpan:TIMOTIMO/JSON::Fast
+HOMEPAGE=https://raku.land/zef:japhb/Terminal::ANSIParser
 INHERIT=rakudo
 IUSE=test
 KEYWORDS=~amd64
@@ -10,6 +10,6 @@ LICENSE=Artistic-2
 RDEPEND=dev-lang/rakudo:=
 RESTRICT=primaryuri !test? ( test )
 SLOT=0
-SRC_URI=mirror://cpan/authors/id//T/TI/TIMOTIMO/Perl6/JSON-Fast-0.19.tar.gz
+SRC_URI=mirror://zef/T/ER/TERMINAL_ANSIPARSER/929dd7df0eaedfd61975eba6b58bf37c3ccfd2f9.tar.gz -> Terminal-ANSIParser-0.0.3.tar.gz
 _eclasses_=rakudo	b67985b06f3ed315ae5d17a88ee61cda
-_md5_=886c09e1e08913e2cca7f0a732536d25
+_md5_=ae61421d69daef4ff063b8fe7f0508bc

@@ -1,0 +1,15 @@
+BDEPEND=test? ( dev-raku/App-Prove6 )
+DEFINED_PHASES=compile install test
+DESCRIPTION=Generalized terminal line editing
+EAPI=8
+HOMEPAGE=https://raku.land/zef:japhb/Terminal::LineEditor
+INHERIT=rakudo
+IUSE=test
+KEYWORDS=~amd64
+LICENSE=Artistic-2
+RDEPEND=dev-raku/Terminal-ANSIParser dev-raku/Terminal-Capabilities dev-raku/Term-termios dev-raku/Text-MiscUtils dev-lang/rakudo:=
+RESTRICT=primaryuri !test? ( test )
+SLOT=0
+SRC_URI=mirror://zef/T/ER/TERMINAL_LINEEDITOR/fdc687120c011f0be74f83dc4b5d7c2ee5399c47.tar.gz -> Terminal-LineEditor-0.0.16.tar.gz
+_eclasses_=rakudo	b67985b06f3ed315ae5d17a88ee61cda
+_md5_=565836dd48abd142d0487e1ae62627f0

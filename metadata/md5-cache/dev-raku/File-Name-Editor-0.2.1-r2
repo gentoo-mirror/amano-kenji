@@ -1,4 +1,4 @@
-BDEPEND=dev-lang/rakudo test? ( dev-raku/App-Prove6 )
+BDEPEND=test? ( dev-raku/App-Prove6 )
 DEFINED_PHASES=compile install test
 DEPEND=dev-raku/File-Temp dev-raku/Term-termios
 DESCRIPTION=A command line tool for renaming files in any text editor.
@@ -12,5 +12,5 @@ RDEPEND=dev-raku/File-Temp dev-raku/Term-termios dev-lang/rakudo:=
 RESTRICT=primaryuri !test? ( test )
 SLOT=0
 SRC_URI=mirror://zef/F/IL/FILE_NAME_EDITOR/553ab3efd41a7404684ca8c824efa8227791a8f7.tar.gz -> File-Name-Editor-0.2.1.tar.gz
-_eclasses_=rakudo	306c6544274c22c5d40fdef142dc022d
-_md5_=945ff9e6287c96d0866a06268658bfb2
+_eclasses_=rakudo	b67985b06f3ed315ae5d17a88ee61cda
+_md5_=54594575a467e6d8dbcfc5793c46bc7a

@@ -1,0 +1,15 @@
+BDEPEND=test? ( dev-raku/App-Prove6 )
+DEFINED_PHASES=compile install test
+DESCRIPTION=Colorize terminal output
+EAPI=8
+HOMEPAGE=https://raku.land/zef:lizmat/Terminal::ANSIColor
+INHERIT=rakudo
+IUSE=test
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=dev-lang/rakudo:=
+RESTRICT=primaryuri !test? ( test )
+SLOT=0
+SRC_URI=mirror://zef/T/ER/TERMINAL_ANSICOLOR/687697f93d36df28d99841af8121e28f032f87eb.tar.gz -> Terminal-ANSIColor-0.10.tar.gz
+_eclasses_=rakudo	b67985b06f3ed315ae5d17a88ee61cda
+_md5_=74aa3bdb88e79876c5191506300a7fa7
