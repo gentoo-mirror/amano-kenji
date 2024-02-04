@@ -10,7 +10,7 @@ app-misc/task-spooler 1.0: a Unix batch system where the tasks spooled run one a
 dev-janet/circlet 0_alpha20200616: an HTTP and networking library
 dev-janet/http 0.1.0_p20200207: A janet HTTP client
 dev-janet/j3blocks 0_p20240204_p2: A janet scripting system for i3bar and swaybar
-dev-janet/j3blocks-extra 0_p20240204_p2: A janet scripting system for i3bar and swaybar
+dev-janet/j3blocks-extra 0_p20240204_p3: A janet scripting system for i3bar and swaybar
 dev-janet/jdn 0.0.1_p20210206: Janet data notation
 dev-janet/jpm 1.1.0: It is for automating builds and downloading dependencies of Janet projects.
 dev-janet/json 0_pre20200117: A JSON module for janet.
