@@ -1,7 +1,4 @@
-# Copyright 1999-2021 Gentoo Authors
-# Distributed under the terms of the GNU General Public License v2
-
-EAPI=7
+EAPI=8
 
 inherit janet-executable
 
@@ -12,8 +9,7 @@ LICENSE="0BSD"
 SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="primaryuri"
-BDEPEND=">=dev-janet/spork-0_p20220720:=
-	>=dev-janet/sh-0_alpha20200513:="
+BDEPEND="dev-janet/spork"
 RDEPEND=">=sys-fs/fuse-2.9.9-r1
 	>=sys-apps/coreutils-8.32
 	>=app-arch/atool-0.39.0
