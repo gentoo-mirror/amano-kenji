@@ -1,0 +1,14 @@
+BDEPEND=dev-janet/jpm
+DEFINED_PHASES=compile install
+DESCRIPTION=A janet module for usbguard
+EAPI=8
+HOMEPAGE=https://codeberg.org/amano.kenji/janet-usbguard
+INHERIT=janet-module
+KEYWORDS=~amd64
+LICENSE=0BSD
+RDEPEND=dev-janet/spork dev-lang/janet
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=https://codeberg.org/amano.kenji/janet-usbguard/archive/efbf77d41b5e040fec520e6fb0f8967ef5d0fad4.tar.gz -> janet-usbguard-0_p20240221.tar.gz
+_eclasses_=janet-common	eb13d2e3fe73ace60601542e75c04894	janet-module	a6e2b341895c35cea9947f1d25b5177d
+_md5_=5ed6048685d68aac23f506f79606bdec
