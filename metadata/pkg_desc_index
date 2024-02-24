@@ -21,7 +21,7 @@ dev-janet/repl-tools 0.3: a set of functions for janet REPL.
 dev-janet/rlrepl 0_alpha20200119: A janet REPL using readline.
 dev-janet/sh 0.0.1_p20220707 0.0.1_p20230425: A janet module for shell functions.
 dev-janet/spork 0_p20240219: Various Janet utility modules - the official "Contrib" library.
-dev-janet/usbguard 0_p20240221: A janet module for usbguard
+dev-janet/usbguard 0_p20240224: A janet module for usbguard
 dev-janet/utf8 0.4: Utility functions for UTF-8
 dev-janet/xmrig 0.2: A janet library for xmrig HTTP API
 dev-lang/janet 1.32.1 1.33.0 1.33.0_p20240220: A functional and imperative language for scripting and embedding
