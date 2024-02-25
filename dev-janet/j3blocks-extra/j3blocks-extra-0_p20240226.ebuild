@@ -4,7 +4,7 @@ inherit janet-module
 
 DESCRIPTION="A janet scripting system for i3bar and swaybar"
 HOMEPAGE="https://codeberg.org/amano.kenji/j3blocks-extra"
-COMMIT="9bcc688327bf1a746019a2f8aa4a21e141b7fd55"
+COMMIT="fc7f7ce2c2bf2f13bce7239b05b786464e961e26"
 SRC_URI="https://codeberg.org/amano.kenji/j3blocks-extra/archive/${COMMIT}.tar.gz -> janet-${P}.tar.gz"
 LICENSE="0BSD"
 SLOT="0"
