@@ -1,9 +1,7 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-
-inherit java-pkg-opt-2
 
 DESCRIPTION="A compiler for the Raku programming language"
 HOMEPAGE="https://rakudo.org
@@ -12,18 +10,15 @@ SRC_URI="https://rakudo.org/dl/${PN}/${P}.tar.gz"
 LICENSE="Artistic-2"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="java +moar test"
+IUSE="test"
 RESTRICT="!test? ( test )"
-REQUIRED_USE="|| ( java moar )"
 
-CDEPEND="~dev-lang/nqp-${PV}:${SLOT}=[java?,moar?]"
+CDEPEND="~dev-lang/nqp-${PV}:${SLOT}="
 RDEPEND="
 	${CDEPEND}
-	java? ( >=virtual/jre-1.9 )
 "
 DEPEND="
 	${CDEPEND}
-	java? ( >=virtual/jdk-1.9 )
 	>=dev-lang/perl-5.10
 "
 
@@ -37,22 +32,14 @@ pkg_pretend() {
 }
 
 src_configure() {
-	local backends
-	use moar && backends+="moar,"
-	use java && backends+="jvm"
-
 	local myargs=(
 		"--prefix=/usr"
 		"--sysroot=/"
 		"--sdkroot=/"
-		"--backends=${backends}"
+		"--backends=moar"
 	)
 
 	perl Configure.pl "${myargs[@]}" || die
-
-	if use java; then
-		NQP=$(java-pkg_getjars --with-dependencies nqp)
-	fi
 }
 
 src_compile() {
