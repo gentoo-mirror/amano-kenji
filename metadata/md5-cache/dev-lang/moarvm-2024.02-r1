@@ -11,6 +11,6 @@ LICENSE=Artistic-2
 RDEPEND=dev-libs/libatomic_ops >=dev-libs/libuv-1.26:= dev-libs/libffi:=
 RESTRICT=test
 SLOT=0
-SRC_URI=http://moarvm.org/releases/MoarVM-2023.12.tar.gz
+SRC_URI=http://moarvm.org/releases/MoarVM-2024.02.tar.gz
 _eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0
-_md5_=71987734406bb242352994bdd0d9a344
+_md5_=e201a54493a8de6934452b80dfc21270
