@@ -7,8 +7,6 @@ dev-lang/moarvm:asan - Enable clang's Address Sanitizer functionality. Expect lo
 dev-lang/moarvm:jit - Enable Just-In-Time-Compiler. Has no effect except on AMD64 and Darwin.
 dev-lang/moarvm:optimize - Enable optimization via CFLAGS
 dev-lang/moarvm:ubsan - Enable clang's Undefined Behavior Sanitizer functionality. Expect longer compile time.
-dev-lang/nqp:moar - Build the MoarVM backend (experimental/broken)
-dev-lang/rakudo:moar - Use the MoarVM as backend
 dev-libs/boost:context - Build and install the Boost.Context (and Boost.Fiber) library and all other Boost libraries that depend on it
 dev-libs/boost:debug - Build and install only the debug version of the Boost libraries. Only enable this flag if you're developing against boost.
 dev-libs/boost:doc - Install the full API documentation documentation. This takes over 200MB of extra disk space.
