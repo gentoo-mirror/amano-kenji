@@ -13,8 +13,7 @@ RESTRICT="primaryuri"
 S="${WORKDIR}"
 FONT_SUFFIX="ttf"
 FONT_CONF=( "${S}/10-nerd-font-symbols.conf" )
-BDEPEND="app-arch/unzip"
-DOCS="readme.md README.md"
+DOCS="README.md"
 
 src_unpack() {
 	cp "${DISTDIR}/${P}-10-nerd-font-symbols.conf" 10-nerd-font-symbols.conf
