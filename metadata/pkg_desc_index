@@ -95,7 +95,7 @@ media-libs/zita-alsa-pcmi 0.3.2: Provides easy access to ALSA PCM devices
 media-libs/zita-resampler 1.6.2: A C++ library for resampling audio signals
 media-plugins/airwindows-lv2 20.0: an LV2 port of the Airwindows plugins originally created by Chris Johnson.
 media-sound/jackminimix 0.2.1: a simple mixer for the Jack with an OSC control interface.
-media-sound/pyradio 0.9.2.25: Command line internet radio player
+media-sound/pyradio 0.9.2.25 0.9.3: Command line internet radio player
 media-sound/zita-ajbridge 0.8.2: zita-ajbridge allows an ALSA device to be used as a jack client.
 net-dns/jddclient 0.2.3: A Dynamic DNS Client written in janet
 net-misc/urlscan 0.9.6: Launch URLs contained in a text content on a web browser
