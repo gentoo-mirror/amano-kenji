@@ -13,7 +13,6 @@ RESTRICT="primaryuri"
 S="${WORKDIR}"
 FONT_SUFFIX="ttf"
 FONT_CONF=( "${S}/10-nerd-font-symbols.conf" )
-BDEPEND="app-arch/unzip"
 DOCS="README.md"
 
 src_unpack() {
