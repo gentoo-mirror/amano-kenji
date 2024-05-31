@@ -13,6 +13,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="asan debug +jit optimize static-libs ubsan"
+S="${WORKDIR}/${MY_PN}-${PV}"
 # Tests are conducted in dev-lang/nqp ebuild
 RESTRICT="test"
 
@@ -25,7 +26,6 @@ DEPEND="${RDEPEND}"
 BDEPEND="
 	dev-lang/perl
 "
-S="${WORKDIR}/${MY_PN}-${PV}"
 
 DOCS="CREDITS README.markdown docs/*"
 
