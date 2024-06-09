@@ -14,9 +14,7 @@ dev-libs/boost:nls - Build libboost_locale. This library requires compatible C l
 dev-libs/boost:numpy - Optionally build NumPy extensions when Boost.Python is enabled
 dev-libs/boost:stacktrace - Build the full Boost.Stacktrace dynamic library instead of relying on the header-only implementation
 dev-libs/boost:tools - Build and install the boost tools (bcp, quickbook, inspect, wave)
-dev-python/JACK-Client:numpy - access the input and output buffers in the process callback as NumPy arrays.
 dev-python/termdown:speak - Support for spoken countdown
-gui-apps/gammastep:geoclue - Control dependency on app-misc/geoclue
 media-gfx/yacreader:qrencode - Support for encoding QR codes
 media-libs/zita-alsa-pcmi:tools - Install executables
 media-libs/zita-resampler:tools - Install executables

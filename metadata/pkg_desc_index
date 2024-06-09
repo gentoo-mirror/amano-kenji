@@ -30,28 +30,16 @@ dev-lang/nqp 2024.04-r1 2024.05-r1: Not Quite Perl, a Raku bootstrapping compile
 dev-lang/rakudo 2024.04-r1 2024.05-r1: A compiler for the Raku programming language
 dev-libs/boost 1.80.0: Boost Libraries for C++
 dev-lisp/parinfer-rust 0.4.3_p20210405: Infer parentheses for Clojure, Lisp and Scheme.
-dev-python/ECPy 1.2.5: a pure python Elliptic Curve library
-dev-python/JACK-Client 0.5.1-r1: JACK Audio Connection Kit (JACK) Client for Python
-dev-python/asciimatics 1.14.0: Package for curses-like operations, text UIs and ASCII art animations
-dev-python/asynctest 0.13.0-r1: Enhance standard unittest package with features for testing asyncio libraries
-dev-python/base58 2.1.1: Base58 and Base58Check implementation
-dev-python/click-didyoumean 0.0.3_p20200930: Enable git-like did-you-mean feature in click.
-dev-python/colour 0.1.5-r4: Python color representations manipulation library (RGB, HSL, web, ...)
-dev-python/d2to1 0.2.12_p1-r1: It converts distutils2's setup.cfg to setuptools' setup.py
-dev-python/i3pystatus 3.35_p20201022 9999: A complete replacement for i3status with many status modules
-dev-python/keyring_pass 0.7.0: app-admin/pass backend for dev-python/keyring
-dev-python/librouteros 3.0.0-r1: Python implementation of routeros api
-dev-python/orjson-bin 3.6.7: Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy
-dev-python/pyalsaaudio 0.8.4-r1: A Python wrapper for the ALSA API
-dev-python/pyfiglet 0.8.0-r4 1.0.1 1.0.2: Pure-python FIGlet implementation
-dev-python/pypass 0.2.1-r1: Python implementation of pass
-dev-python/python-osc 1.7.3-r1: Open Sound Control server and client in pure python
-dev-python/stringcase 1.2.0: Convert string cases between camel case, pascal case, snake case etc.
-dev-python/td-watson 2.1.0: A wonderful CLI to track your time!
-dev-python/termdown 1.18.0: Countdown timer and stopwatch in your terminal
-dev-python/types-Deprecated 1.2.9: a PEP 561 type stub for the Deprecated package
-dev-python/urwidtrees 1.0.3-r1: Tree widgets for urwid
-dev-python/xrpl-py 1.7.0: A pure Python implementation for interacting with the XRP Ledger
+dev-python/ECPy 1.2.5-r1: a pure python Elliptic Curve library
+dev-python/asciimatics 1.15.0: Package for curses-like operations, text UIs and ASCII art animations
+dev-python/asynctest 0.13.0-r2: Enhance standard unittest package with features for testing asyncio libraries
+dev-python/base58 2.1.1-r1: Base58 and Base58Check implementation
+dev-python/click-didyoumean 0.3.1: Enable git-like did-you-mean feature in click.
+dev-python/pyfiglet 1.0.2-r2: Pure-python FIGlet implementation
+dev-python/td-watson 2.1.0-r1: A wonderful CLI to track your time!
+dev-python/termdown 1.18.0-r1: Countdown timer and stopwatch in your terminal
+dev-python/types-Deprecated 1.2.9.20240311: a PEP 561 type stub for the Deprecated package
+dev-python/xrpl-py 2.6.0: A pure Python implementation for interacting with the XRP Ledger
 dev-raku/App-Prove6 0.0.17: Run tests through a TAP harness.
 dev-raku/Digest-MD5 0.05_p20170425-r2: MD5 Algorithm
 dev-raku/Distribution-Builder-MakeFromJSON 0.6-r3: Makefile based distribution builder
@@ -78,7 +66,6 @@ dev-raku/zef 0.21.2: Raku Module Management
 dev-util/scc 3.2.0: scc is a very fast accurate code counter
 gui-apps/bemenu 0.6.3_p20211104: dmenu clone for wayland
 gui-apps/emptty 0.12.0: Dead simple CLI Display Manager on TTY
-gui-apps/gammastep 2.0.2-r1: A screen color temperature adjusting software
 gui-apps/wlsunset 0.2_p20220504: Day/night gamma adjustments for Wayland
 media-fonts/font-awesome-extension 0.0.3: icon font that extends font-awesome
 media-fonts/font-logos 0.14: An icon font containing logos of linux distributions and other softwares.
@@ -95,13 +82,12 @@ media-libs/zita-alsa-pcmi 0.3.2: Provides easy access to ALSA PCM devices
 media-libs/zita-resampler 1.6.2: A C++ library for resampling audio signals
 media-plugins/airwindows-lv2 20.0: an LV2 port of the Airwindows plugins originally created by Chris Johnson.
 media-sound/jackminimix 0.2.1: a simple mixer for the Jack with an OSC control interface.
-media-sound/pyradio 0.9.3.2 0.9.3.7: Command line internet radio player
+media-sound/pyradio 0.9.3.7 0.9.3.9: Command line internet radio player
 media-sound/zita-ajbridge 0.8.2: zita-ajbridge allows an ALSA device to be used as a jack client.
 net-dns/jddclient 0.2.3: A Dynamic DNS Client written in janet
-net-misc/urlscan 0.9.6: Launch URLs contained in a text content on a web browser
+net-misc/urlscan 1.0.2: Launch URLs contained in a text content on a web browser
 net-p2p/haven-main 3.3.0 3.3.2: Haven protocol(XHV) command line wallet
 net-p2p/lbry 0.53.3-r1: A browser for the LBRY network, a digital marketplace controlled by its users.
-net-p2p/stig 0.12.3: TUI and CLI for the BitTorrent client Transmission
 net-print/brother-dcp1610w-bin 3.0.1-r2: Brother printer driver for DCP-1610W
 sys-apps/flashbench 2020.01.23: Testing tool for managed flash memory devices
 sys-auth/dumb_runtime_dir 1.0.4: Creates an XDG_RUNTIME_DIR on login and never removes it.
