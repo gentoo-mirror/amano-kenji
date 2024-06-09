@@ -1,7 +1,7 @@
 EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
-PYTHON_COMPAT=( python3_{8..12} )
+PYTHON_COMPAT=( python3_{8..13} )
 inherit distutils-r1 desktop
 
 SRC_URI="https://github.com/coderholic/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
@@ -34,6 +34,7 @@ src_prepare() {
 
 src_install() {
 	distutils-r1_src_install
+	doman docs/pyradio-client.1
 	doman docs/pyradio.1
 	doman docs/pyradio_rb.1
 	doman docs/pyradio_rec.1
