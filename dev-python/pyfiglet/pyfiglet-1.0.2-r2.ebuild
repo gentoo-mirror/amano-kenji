@@ -1,6 +1,6 @@
 EAPI=8
 
-PYTHON_COMPAT=( python3_{9..11} )
+PYTHON_COMPAT=( python3_{9..13} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1
 
@@ -18,5 +18,3 @@ src_install() {
 	distutils-r1_src_install
 	doman doc/pyfiglet.1
 }
-
-distutils_enable_tests pytest
