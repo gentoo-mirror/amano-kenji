@@ -85,7 +85,7 @@ media-sound/jackminimix 0.2.1: a simple mixer for the Jack with an OSC control i
 media-sound/pyradio 0.9.3.7 0.9.3.9: Command line internet radio player
 media-sound/zita-ajbridge 0.8.2: zita-ajbridge allows an ALSA device to be used as a jack client.
 net-dns/jddclient 0.2.3: A Dynamic DNS Client written in janet
-net-misc/urlscan 1.0.2: Launch URLs contained in a text content on a web browser
+net-misc/urlscan 1.0.2-r1: Launch URLs contained in a text content on a web browser
 net-p2p/haven-main 3.3.0 3.3.2: Haven protocol(XHV) command line wallet
 net-p2p/lbry 0.53.3-r1: A browser for the LBRY network, a digital marketplace controlled by its users.
 net-print/brother-dcp1610w-bin 3.0.1-r2: Brother printer driver for DCP-1610W
