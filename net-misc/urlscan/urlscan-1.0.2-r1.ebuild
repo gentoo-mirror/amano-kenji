@@ -14,3 +14,8 @@ KEYWORDS="~amd64"
 RESTRICT="primaryuri"
 DEPEND=">=dev-python/urwid-1.2.1"
 RDEPEND="${DEPEND}"
+
+python_prepare_all() {
+   export SETUPTOOLS_SCM_PRETEND_VERSION=${PV}
+   distutils-r1_python_prepare_all
+}
