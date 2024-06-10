@@ -10,7 +10,6 @@ SRC_URI="https://github.com/tvrzna/emptty/archive/refs/tags/v${PV}.tar.gz -> ${P
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE=""
 RESTRICT="primaryuri"
 DEPEND="sys-libs/pam
 	x11-libs/libX11"
