@@ -8,12 +8,12 @@ DESCRIPTION="A 6model-based VM for NQP and Raku"
 HOMEPAGE="http://moarvm.org
 	https://github.com/MoarVM/MoarVM"
 SRC_URI="http://moarvm.org/releases/${MY_PN}-${PV}.tar.gz"
+
+S="${WORKDIR}/${MY_PN}-${PV}"
 LICENSE="Artistic-2"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-
 IUSE="asan debug +jit optimize static-libs ubsan"
-S="${WORKDIR}/${MY_PN}-${PV}"
 # Tests are conducted in dev-lang/nqp ebuild
 RESTRICT="test"
 
