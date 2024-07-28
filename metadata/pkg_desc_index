@@ -15,7 +15,7 @@ dev-janet/jdn 0.0.1_p20210206: Janet data notation
 dev-janet/jpm 1.1.0: It is for automating builds and downloading dependencies of Janet projects.
 dev-janet/json 0_pre20200117: A JSON module for janet.
 dev-janet/path 0_pre20191213: Simple path manipulation module for Janet.
-dev-janet/posix-spawn 0.0.1_p20220806: A process API for janet wrapping posix-spawn(3).
+dev-janet/posix-spawn 0.0.1_p20240727: A process API for janet wrapping posix-spawn(3).
 dev-janet/process 0_alpha20200509: A janet module for running child processes.
 dev-janet/repl-tools 0.3: a set of functions for janet REPL.
 dev-janet/rlrepl 0_alpha20200119: A janet REPL using readline.
