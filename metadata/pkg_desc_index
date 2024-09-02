@@ -25,9 +25,9 @@ dev-janet/usbguard 0_p20240224: A janet module for usbguard
 dev-janet/utf8 0.4: Utility functions for UTF-8
 dev-janet/xmrig 0.2: A janet library for xmrig HTTP API
 dev-lang/janet 1.35.0 1.35.2: A functional and imperative language for scripting and embedding
-dev-lang/moarvm 2024.06-r1 2024.07-r1: A 6model-based VM for NQP and Raku
-dev-lang/nqp 2024.06-r1 2024.07-r1: Not Quite Perl, a Raku bootstrapping compiler
-dev-lang/rakudo 2024.06-r1 2024.07-r1: A compiler for the Raku programming language
+dev-lang/moarvm 2024.07-r1 2024.08-r1: A 6model-based VM for NQP and Raku
+dev-lang/nqp 2024.07-r1 2024.08-r1: Not Quite Perl, a Raku bootstrapping compiler
+dev-lang/rakudo 2024.07-r1 2024.08-r1: A compiler for the Raku programming language
 dev-libs/boost 1.80.0: Boost Libraries for C++
 dev-python/ECPy 1.2.5-r1: a pure python Elliptic Curve library
 dev-python/asciimatics 1.15.0: Package for curses-like operations, text UIs and ASCII art animations
@@ -81,7 +81,7 @@ media-libs/zita-alsa-pcmi 0.3.2: Provides easy access to ALSA PCM devices
 media-libs/zita-resampler 1.6.2: A C++ library for resampling audio signals
 media-plugins/airwindows-lv2 20.0: an LV2 port of the Airwindows plugins originally created by Chris Johnson.
 media-sound/jackminimix 0.2.1: a simple mixer for the Jack with an OSC control interface.
-media-sound/pyradio 0.9.3.7 0.9.3.9: Command line internet radio player
+media-sound/pyradio 0.9.3.9 0.9.3.11: Command line internet radio player
 media-sound/zita-ajbridge 0.8.2: zita-ajbridge allows an ALSA device to be used as a jack client.
 net-dns/jddclient 0.2.3: A Dynamic DNS Client written in janet
 net-misc/urlscan 1.0.2-r1: Launch URLs contained in a text content on a web browser
