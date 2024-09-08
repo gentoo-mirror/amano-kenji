@@ -24,7 +24,7 @@ dev-janet/spork 0_p20240219: Various Janet utility modules - the official "Contr
 dev-janet/usbguard 0_p20240224: A janet module for usbguard
 dev-janet/utf8 0.4: Utility functions for UTF-8
 dev-janet/xmrig 0.2: A janet library for xmrig HTTP API
-dev-lang/janet 1.35.0 1.35.2: A functional and imperative language for scripting and embedding
+dev-lang/janet 1.35.2 1.36.0: A functional and imperative language for scripting and embedding
 dev-lang/moarvm 2024.07-r1 2024.08-r1: A 6model-based VM for NQP and Raku
 dev-lang/nqp 2024.07-r1 2024.08-r1: Not Quite Perl, a Raku bootstrapping compiler
 dev-lang/rakudo 2024.07-r1 2024.08-r1: A compiler for the Raku programming language
