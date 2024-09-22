@@ -10,7 +10,7 @@ LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="primaryuri"
-DOCS=(NEWS README.md TODO doc/COMPARISON doc/DESIGN doc/getting_started.md
+DOCS=(NEWS README.md TODO doc/COMPARISON doc/DESIGN doc/SECURITY doc/getting_started.md
 	doc/linux/DINIT-AS-INIT.md)
 
 src_configure() {
