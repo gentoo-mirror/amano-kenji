@@ -12,6 +12,7 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
 # media-fonts/dejavu is for Unicode Geometric Shapes Block used by pyradio
+# pyradio uses xdg-open from x11-misc/xdg-utils
 RDEPEND="|| ( media-video/mpv
 	media-video/mplayer
 	media-video/vlc )
