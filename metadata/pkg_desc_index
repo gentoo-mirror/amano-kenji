@@ -25,9 +25,9 @@ dev-janet/usbguard 0_p20240224: A janet module for usbguard
 dev-janet/utf8 0.4: Utility functions for UTF-8
 dev-janet/xmrig 0.2: A janet library for xmrig HTTP API
 dev-lang/janet 1.35.2 1.36.0: A functional and imperative language for scripting and embedding
-dev-lang/moarvm 2024.08-r1 2024.09-r1: A 6model-based VM for NQP and Raku
-dev-lang/nqp 2024.08-r1 2024.09-r1: Not Quite Perl, a Raku bootstrapping compiler
-dev-lang/rakudo 2024.08-r1 2024.09-r1: A compiler for the Raku programming language
+dev-lang/moarvm 2024.09-r1 2024.10-r1: A 6model-based VM for NQP and Raku
+dev-lang/nqp 2024.09-r1 2024.10-r1: Not Quite Perl, a Raku bootstrapping compiler
+dev-lang/rakudo 2024.09-r1 2024.10-r1: A compiler for the Raku programming language
 dev-libs/boost 1.80.0: Boost Libraries for C++
 dev-python/ECPy 1.2.5-r1: a pure python Elliptic Curve library
 dev-python/asciimatics 1.15.0: Package for curses-like operations, text UIs and ASCII art animations
