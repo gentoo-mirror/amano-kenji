@@ -84,6 +84,7 @@ media-sound/jackminimix 0.2.1: a simple mixer for the Jack with an OSC control i
 media-sound/pyradio 0.9.3.11 0.9.3.11.1: Command line internet radio player
 media-sound/zita-ajbridge 0.8.2: zita-ajbridge allows an ALSA device to be used as a jack client.
 net-dns/jddclient 0.2.3: A Dynamic DNS Client written in janet
+net-misc/electrum 4.5.8-r1: User friendly Bitcoin client
 net-misc/urlscan 1.0.2-r1: Launch URLs contained in a text content on a web browser
 net-p2p/haven-main 3.3.0 3.3.2: Haven protocol(XHV) command line wallet
 net-print/brother-dcp1610w-bin 3.0.1-r2: Brother printer driver for DCP-1610W
@@ -93,7 +94,7 @@ sys-auth/pam-gnupg 0.2_p20201125-r2: Unlock GnuPG keys on login
 sys-auth/pam_rundir 1.0.1-r6: A PAM module that provides XDG_RUNTIME_DIR
 sys-fs/sanoid 2.1.0 2.2.0: Policy-driven snapshot management and replication tools.
 sys-libs/basu 0.2.0: sd-bus library extracted from systemd
-sys-process/dinit 0.19.0 0.19.1: service manager and init system
+sys-process/dinit 0.19.1 0.19.2: service manager and init system
 www-misc/buku-fzf 0.3.14: A buku bookmark browser
 www-misc/bukubrow 5.3.0: Host application for the Bukubrow WebExtension
 x11-misc/console-tdm 1.4.1: Console display manager based on CDM

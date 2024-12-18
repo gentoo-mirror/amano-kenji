@@ -18,6 +18,8 @@ dev-python/termdown:speak - Support for spoken countdown
 media-gfx/yacreader:qrencode - Support for encoding QR codes
 media-libs/zita-alsa-pcmi:tools - Install executables
 media-libs/zita-resampler:tools - Install executables
+net-misc/electrum:cli - Enables the CLI interface
+net-misc/electrum:qrcode - Enable QR code scanning with media-gfx/zbar
 net-p2p/haven-main:ldns - SSL toolkit
 net-p2p/haven-main:lzma - lzma support in unwind
 net-p2p/haven-main:xml - xml support through dev-libs/expat
