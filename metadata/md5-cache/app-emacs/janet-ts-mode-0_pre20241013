@@ -1,0 +1,14 @@
+BDEPEND=>=app-editors/emacs-25.3:*
+DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
+DEPEND=>=app-editors/emacs-29[tree-sitter] dev-libs/tree-sitter-janet-simple
+DESCRIPTION=A tree-sitter-based Emacs major mode for the Janet programming language
+EAPI=8
+HOMEPAGE=https://github.com/sogaiu/janet-ts-mode
+INHERIT=elisp
+KEYWORDS=~amd64
+LICENSE=public-domain
+RDEPEND=>=app-editors/emacs-29[tree-sitter] dev-libs/tree-sitter-janet-simple >=app-editors/emacs-25.3:*
+SLOT=0
+SRC_URI=https://github.com/sogaiu/janet-ts-mode/archive/ef68dfda16b44c418532bd51fe9e4247a16b31df.tar.gz -> janet-ts-mode-0_pre20241013.tar.gz
+_eclasses_=elisp-common	4ee3453b022aae73f4d827a0f98920c2	elisp	e7149f29f0c141396a0cec7cc59947a6
+_md5_=f359aeab9ac96230f29de8fc5bcccab8
