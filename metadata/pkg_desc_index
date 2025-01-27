@@ -30,7 +30,7 @@ dev-lang/moarvm 2024.09-r1 2024.10-r1: A 6model-based VM for NQP and Raku
 dev-lang/nqp 2024.09-r1 2024.10-r1: Not Quite Perl, a Raku bootstrapping compiler
 dev-lang/rakudo 2024.09-r1 2024.10-r1: A compiler for the Raku programming language
 dev-libs/boost 1.80.0: Boost Libraries for C++
-dev-libs/tree-sitter-janet-simple 0_p20240827: A Janet grammar for tree-sitter.
+dev-libs/tree-sitter-janet-simple 0.0.7: A Janet grammar for tree-sitter.
 dev-python/ECPy 1.2.5-r1: a pure python Elliptic Curve library
 dev-python/asciimatics 1.15.0: Package for curses-like operations, text UIs and ASCII art animations
 dev-python/asynctest 0.13.0-r2: Enhance standard unittest package with features for testing asyncio libraries
@@ -83,9 +83,10 @@ media-libs/zita-alsa-pcmi 0.3.2: Provides easy access to ALSA PCM devices
 media-libs/zita-resampler 1.6.2: A C++ library for resampling audio signals
 media-plugins/airwindows-lv2 30.0: an LV2 port of the Airwindows plugins originally created by Chris Johnson.
 media-sound/jackminimix 0.2.1: a simple mixer for the Jack with an OSC control interface.
-media-sound/pyradio 0.9.3.11 0.9.3.11.1: Command line internet radio player
+media-sound/pyradio 0.9.3.11.1 0.9.3.11.4: Command line internet radio player
 media-sound/zita-ajbridge 0.8.2: zita-ajbridge allows an ALSA device to be used as a jack client.
 net-dns/jddclient 0.2.3: A Dynamic DNS Client written in janet
+net-misc/aria2p 0.12.1: Command-line tool and library to interact with an aria2c daemon process
 net-misc/electrum 4.5.8-r1: User friendly Bitcoin client
 net-misc/urlscan 1.0.2-r1: Launch URLs contained in a text content on a web browser
 net-p2p/haven-main 3.3.0 3.3.2: Haven protocol(XHV) command line wallet
@@ -96,7 +97,7 @@ sys-auth/pam-gnupg 0.2_p20201125-r2: Unlock GnuPG keys on login
 sys-auth/pam_rundir 1.0.1-r6: A PAM module that provides XDG_RUNTIME_DIR
 sys-fs/sanoid 2.1.0 2.2.0: Policy-driven snapshot management and replication tools.
 sys-libs/basu 0.2.0: sd-bus library extracted from systemd
-sys-process/dinit 0.19.1 0.19.2: service manager and init system
+sys-process/dinit 0.19.2 0.19.3: service manager and init system
 www-misc/buku-fzf 0.3.14: A buku bookmark browser
 www-misc/bukubrow 5.3.0: Host application for the Bukubrow WebExtension
 x11-misc/console-tdm 1.4.1: Console display manager based on CDM
