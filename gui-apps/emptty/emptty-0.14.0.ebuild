@@ -5,7 +5,7 @@ inherit go-module pam systemd
 DESCRIPTION="Dead simple CLI Display Manager on TTY"
 HOMEPAGE="https://github.com/tvrzna/emptty"
 SRC_URI="https://github.com/tvrzna/emptty/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz
-	https://codeberg.org/amano-kenji-gentoo-overlay/${PN}/raw/branch/master/emptty-${PV}-deps.tar.xz"
+	https://codeberg.org/amano-kenji-gentoo-overlay/${PN}/raw/branch/master/emptty-0.13.0-deps.tar.xz"
 
 LICENSE="MIT"
 SLOT="0"
@@ -14,7 +14,7 @@ RESTRICT="primaryuri"
 DEPEND="sys-libs/pam
 	x11-libs/libX11"
 RDEPEND="${DEPEND}"
-BDEPEND=">=dev-lang/go-1.14"
+BDEPEND=">=dev-lang/go-1.20"
 DOCS="README.md SAMPLES.md res/conf"
 
 src_compile() {
