@@ -66,7 +66,7 @@ dev-raku/sigpipe 0.0.3: set up SIGPIPE correctly for CLI applications
 dev-raku/zef 0.21.2: Raku Module Management
 dev-util/scc 3.2.0: scc is a very fast accurate code counter
 gui-apps/bemenu 0.6.3_p20211104: dmenu clone for wayland
-gui-apps/emptty 0.13.0: Dead simple CLI Display Manager on TTY
+gui-apps/emptty 0.14.0: Dead simple CLI Display Manager on TTY
 gui-apps/wlsunset 0.2_p20220504: Day/night gamma adjustments for Wayland
 media-fonts/font-awesome-extension 0.0.3: icon font that extends font-awesome
 media-fonts/font-logos 0.14: An icon font containing logos of linux distributions and other softwares.
