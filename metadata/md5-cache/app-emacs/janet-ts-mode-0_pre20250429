@@ -9,6 +9,6 @@ KEYWORDS=~amd64
 LICENSE=public-domain
 RDEPEND=>=app-editors/emacs-29[tree-sitter] dev-libs/tree-sitter-janet-simple >=app-editors/emacs-25.3:*
 SLOT=0
-SRC_URI=https://github.com/sogaiu/janet-ts-mode/archive/08c69403216cb9e9ac61daddec7690b330d622d3.tar.gz -> janet-ts-mode-0_pre20250414.tar.gz
+SRC_URI=https://github.com/sogaiu/janet-ts-mode/archive/ac684edf57e4d4e085cf99d5ad2ee084b46b8123.tar.gz -> janet-ts-mode-0_pre20250429.tar.gz
 _eclasses_=elisp-common	fe05085d051330f15cf7201109b5cd23	elisp	8dfc7a00348fe9c91895014adc78a4a5
-_md5_=952e5e1782eabffceed529a2cfbb3d75
+_md5_=58c769f188762bdd13b2a1fcd94ad053
