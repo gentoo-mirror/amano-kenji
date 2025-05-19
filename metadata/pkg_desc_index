@@ -3,7 +3,7 @@ acct-user/monero 0: System user: monero
 app-arch/unarr 1.1.0_pre20200201-r2: A lightweight decompression library with support for rar, tar and zip archives
 app-crypt/lssecret 0_p20190703: List all secret items using libsecret (e.g. GNOME Keyring).
 app-crypt/pass_secret_service 0_p20220718-r2: dbus-service to serve secret-service api with pass backend
-app-emacs/janet-ts-mode 0_pre20250511: A tree-sitter-based Emacs major mode for the Janet programming language
+app-emacs/janet-ts-mode 0_pre20250512: A tree-sitter-based Emacs major mode for the Janet programming language
 app-misc/dragon 1.1.1: Drag and drop source/target for X
 app-misc/ranger 1.9.3_p20220615: A vim-inspired file manager for the console
 app-misc/simple-dosbox-launcher 0.1.5: It launches an executable in an archive file with dosbox.
@@ -83,7 +83,7 @@ media-libs/zita-alsa-pcmi 0.3.2: Provides easy access to ALSA PCM devices
 media-libs/zita-resampler 1.6.2: A C++ library for resampling audio signals
 media-plugins/airwindows-lv2 30.0: an LV2 port of the Airwindows plugins originally created by Chris Johnson.
 media-sound/jackminimix 0.2.1: a simple mixer for the Jack with an OSC control interface.
-media-sound/pyradio 0.9.3.11.1 0.9.3.11.4: Command line internet radio player
+media-sound/pyradio 0.9.3.11.4 0.9.3.11.13: Command line internet radio player
 media-sound/zita-ajbridge 0.8.2: zita-ajbridge allows an ALSA device to be used as a jack client.
 net-dns/jddclient 0.2.3: A Dynamic DNS Client written in janet
 net-misc/aria2p 0.12.1: Command-line tool and library to interact with an aria2c daemon process
