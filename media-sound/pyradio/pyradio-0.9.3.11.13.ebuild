@@ -4,9 +4,9 @@ DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{8..13} )
 inherit distutils-r1 desktop
 
-SRC_URI="https://github.com/coderholic/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 DESCRIPTION="Command line internet radio player"
 HOMEPAGE="http://www.coderholic.com/pyradio"
+SRC_URI="https://github.com/coderholic/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
@@ -31,6 +31,7 @@ src_prepare() {
 	# This step is required for linux distros.
 	sed -i 's/distro = None/distro = Gentoo Linux/' pyradio/config
 	sed -i 's/xdg_compliant = False/xdg_compliant = True/' pyradio/config
+	sed -i 's/remove_station_icons  = True/remove_station_icons  = False/' pyradio/config
 }
 
 src_install() {
