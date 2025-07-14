@@ -4,7 +4,7 @@ inherit elisp
 
 DESCRIPTION="A tree-sitter-based Emacs major mode for the Janet programming language"
 HOMEPAGE="https://github.com/sogaiu/janet-ts-mode"
-COMMIT="63ad604c291563754da575595b04b870be66c3c6"
+COMMIT="79a5c6e57afb6d964c9a963c2db82b6c5aa6d51f"
 SRC_URI="https://github.com/sogaiu/janet-ts-mode/archive/${COMMIT}.tar.gz -> ${P}.tar.gz"
 S="${WORKDIR}/${PN}-${COMMIT}"
 LICENSE="public-domain"
