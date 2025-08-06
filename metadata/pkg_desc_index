@@ -2,7 +2,7 @@ acct-group/monero 0: System group: monero
 acct-user/monero 0: System user: monero
 app-arch/unarr 1.1.0_pre20200201-r2: A lightweight decompression library with support for rar, tar and zip archives
 app-crypt/lssecret 0_p20190703: List all secret items using libsecret (e.g. GNOME Keyring).
-app-emacs/janet-ts-mode 0_pre20250801: A tree-sitter-based Emacs major mode for the Janet programming language
+app-emacs/janet-ts-mode 0_pre20250805: A tree-sitter-based Emacs major mode for the Janet programming language
 app-misc/dragon 1.1.1: Drag and drop source/target for X
 app-misc/simple-dosbox-launcher 0.1.5: It launches an executable in an archive file with dosbox.
 app-misc/task-spooler 1.0: a Unix batch system where the tasks spooled run one after the other.
