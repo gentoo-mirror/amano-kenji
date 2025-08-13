@@ -75,7 +75,6 @@ media-fonts/material-design-icons 20200810-r1: Font containing material design i
 media-fonts/mononoki 1.5: a font for programming and code review
 media-fonts/nanum 2018-r2: Korean fonts distributed by naver
 media-fonts/nerd-fonts-symbols 3.2.0 3.2.1: Symbols-only fonts from nerd fonts
-media-gfx/yacreader 9.8.2: A comic reader for reading and managing your digital comic collection
 media-libs/zita-alsa-pcmi 0.3.2: Provides easy access to ALSA PCM devices
 media-libs/zita-resampler 1.6.2: A C++ library for resampling audio signals
 media-plugins/airwindows-lv2 30.0: an LV2 port of the Airwindows plugins originally created by Chris Johnson.

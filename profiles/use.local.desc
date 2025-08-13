@@ -15,7 +15,6 @@ dev-libs/boost:numpy - Optionally build NumPy extensions when Boost.Python is en
 dev-libs/boost:stacktrace - Build the full Boost.Stacktrace dynamic library instead of relying on the header-only implementation
 dev-libs/boost:tools - Build and install the boost tools (bcp, quickbook, inspect, wave)
 dev-python/termdown:speak - Support for spoken countdown
-media-gfx/yacreader:qrencode - Support for encoding QR codes
 media-libs/zita-alsa-pcmi:tools - Install executables
 media-libs/zita-resampler:tools - Install executables
 net-misc/electrum:cli - Enables the CLI interface
